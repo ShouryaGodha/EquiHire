@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { useNavigate, useLocation, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, Settings, Loader2 } from 'lucide-react';
 import { CandidateList } from '../components/CandidateList';
@@ -40,16 +40,25 @@ export default function CandidatesPage() {
         setCurrentSessionId,
     } = useChatHistory();
 
-    // Track if we've already initialized to prevent duplicate sessions
-    const [hasInitialized, setHasInitialized] = useState(false);
+    // Track initialization with a ref to persist across re-renders and avoid race conditions
+    // Use a combination of ref and state to track which session/job description we've initialized
+    const initializedForRef = useRef<string | null>(null);
 
     // Restore session from URL parameter or load new search
     useEffect(() => {
         const initializeSession = async () => {
             // Check if we're resuming a session
             if (resumeSessionId) {
+                // If we've already initialized for this session, don't do it again
+                if (initializedForRef.current === `session:${resumeSessionId}`) {
+                    return;
+                }
+
                 const session = chatHistoryService.getSession(resumeSessionId);
                 if (session) {
+                    // Mark as initialized for this session
+                    initializedForRef.current = `session:${resumeSessionId}`;
+
                     loadSession(session.id);
                     setLocalSessionId(session.id);
 
@@ -66,25 +75,31 @@ export default function CandidatesPage() {
                         }
                     }
                     setIsLoading(false);
-                    setHasInitialized(true);
                     return;
                 }
             }
 
-            // New search with job description - only create once
-            if (jobDescription && !hasInitialized) {
-                setHasInitialized(true);
+            // New search with job description - only create once per unique job description
+            if (jobDescription) {
+                // If we've already initialized for this job description, don't create another session
+                if (initializedForRef.current === `job:${jobDescription}`) {
+                    return;
+                }
+
+                // Mark as initialized for this job description
+                initializedForRef.current = `job:${jobDescription}`;
+
                 const newSession = createSession(jobDescription);
                 setLocalSessionId(newSession.id);
                 addUserMessage(jobDescription, 'initial_search');
                 await performSearch(jobDescription);
-            } else if (!jobDescription) {
+            } else if (!resumeSessionId) {
                 setIsLoading(false);
             }
         };
 
         initializeSession();
-    }, [resumeSessionId, jobDescription, hasInitialized]); // Re-run when session ID changes
+    }, [resumeSessionId, jobDescription]); // Only depend on the actual inputs, not derived state
 
     const performSearch = async (query: string) => {
         setIsLoading(true);

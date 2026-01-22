@@ -99,11 +99,13 @@ export function createSession(jobDescription: string): ChatSession {
     const now = new Date().toISOString();
     const sessions = getAllSessions();
 
-    // Check if a very recent session with the same job description exists (within 5 seconds)
-    // This prevents duplicate session creation from React strict mode or double renders
+    // Check if a recent session with the same job description exists (within 5 minutes)
+    // This prevents duplicate session creation from React strict mode, double renders,
+    // or navigating away and back to the same page
     const recentDuplicate = sessions.find(s => {
         const timeDiff = new Date(now).getTime() - new Date(s.createdAt).getTime();
-        return s.jobDescription === jobDescription && timeDiff < 5000;
+        // 5 minutes = 300000ms - covers most navigation scenarios
+        return s.jobDescription === jobDescription && timeDiff < 300000;
     });
 
     if (recentDuplicate) {

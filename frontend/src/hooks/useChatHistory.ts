@@ -63,11 +63,17 @@ export function useChatHistory(initialSessionId?: string): UseChatHistoryReturn 
         return session;
     }, [refreshSessions]);
 
-    // Load a session by ID
+    // Load a session by ID (does not update storage, just sets the current session)
     const loadSession = useCallback((sessionId: string): ChatSession | null => {
         const session = chatHistoryService.getSession(sessionId);
         if (session) {
-            setCurrentSessionId(sessionId);
+            // Only update if it's a different session to avoid unnecessary re-renders
+            setCurrentSessionId(prevId => {
+                if (prevId !== sessionId) {
+                    return sessionId;
+                }
+                return prevId;
+            });
             refreshSessions();
         }
         return session;
