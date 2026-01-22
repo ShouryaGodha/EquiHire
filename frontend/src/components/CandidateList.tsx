@@ -24,7 +24,7 @@ export function CandidateList({ candidates, selectedId, onSelect, totalScanned }
                     {candidates.length} candidates found
                     {totalScanned && totalScanned > candidates.length && (
                         <span className="text-xs ml-1">
-                            (from {totalScanned} chunks)
+                            (from {totalScanned} candidates scanned)
                         </span>
                     )}
                 </h2>

@@ -235,6 +235,7 @@ class QdrantService:
         """Store a single candidate chunk with its embedding."""
         payload = {
             "candidate_id": chunk.candidate_id,
+            "candidate_name": chunk.candidate_name,
             "chunk_index": chunk.chunk_index,
             "chunk_type": chunk.chunk_type.value,
             "text": chunk.text,
@@ -275,6 +276,7 @@ class QdrantService:
         for chunk, embedding in zip(chunks, embeddings):
             payload = {
                 "candidate_id": chunk.candidate_id,
+                "candidate_name": chunk.candidate_name,
                 "chunk_index": chunk.chunk_index,
                 "chunk_type": chunk.chunk_type.value,
                 "text": chunk.text,
@@ -391,6 +393,88 @@ class QdrantService:
             }
             for result in results
         ]
+
+    def hybrid_search_with_candidate_diversity(
+        self,
+        query_embedding: List[float],
+        filters: Optional[FilterIntent] = None,
+        min_unique_candidates: int = 20,
+        max_chunks_per_candidate: int = 5,
+        score_threshold: float = 0.0,
+    ) -> List[Dict[str, Any]]:
+        """
+        Perform hybrid search ensuring minimum diversity of unique candidates.
+
+        This method fetches chunks in batches and ensures we have enough
+        unique candidates represented, preventing a few candidates with
+        many chunks from dominating the results.
+
+        Args:
+            query_embedding: Query vector for similarity search
+            filters: Optional soft filter constraints
+            min_unique_candidates: Minimum number of unique candidates to retrieve
+            max_chunks_per_candidate: Maximum chunks to keep per candidate
+            score_threshold: Minimum similarity score
+
+        Returns:
+            List of chunk results with candidate diversity guaranteed
+        """
+        filter_conditions = self._build_soft_filter(filters)
+
+        # Start with a larger batch to get diversity
+        batch_size = min_unique_candidates * 3
+        max_iterations = 5
+        all_results = []
+        seen_candidates = {}  # candidate_id -> list of (score, result)
+        offset = 0
+
+        for _ in range(max_iterations):
+            results = self.client.search(
+                collection_name=self.settings.candidate_chunks_collection,
+                query_vector=query_embedding,
+                query_filter=filter_conditions,
+                limit=batch_size,
+                offset=offset,
+                score_threshold=score_threshold,
+                with_payload=True,
+            )
+
+            if not results:
+                break
+
+            for result in results:
+                candidate_id = result.payload.get("candidate_id")
+                if candidate_id:
+                    if candidate_id not in seen_candidates:
+                        seen_candidates[candidate_id] = []
+                    seen_candidates[candidate_id].append(
+                        {
+                            "id": result.id,
+                            "score": result.score,
+                            "payload": result.payload,
+                        }
+                    )
+
+            # Check if we have enough unique candidates
+            if len(seen_candidates) >= min_unique_candidates:
+                break
+
+            offset += batch_size
+
+        # Now aggregate results: keep top chunks per candidate
+        for candidate_id, chunks in seen_candidates.items():
+            # Sort by score descending and keep top N
+            sorted_chunks = sorted(chunks, key=lambda x: x["score"], reverse=True)
+            all_results.extend(sorted_chunks[:max_chunks_per_candidate])
+
+        # Sort all results by score
+        all_results.sort(key=lambda x: x["score"], reverse=True)
+
+        logger.info(
+            f"Diversity search: {len(all_results)} chunks from {len(seen_candidates)} unique candidates"
+        )
+
+        return all_results
 
     def _build_soft_filter(self, filters: Optional[FilterIntent]) -> Optional[Filter]:
         """

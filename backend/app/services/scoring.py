@@ -106,12 +106,22 @@ class ScoringService:
     ) -> ScoreBreakdown:
         """
         Compute comprehensive score breakdown for a candidate.
+
+        For semantic similarity, we use a weighted combination:
+        - MAX score (best matching chunk) contributes 70%
+        - AVG score (overall relevance) contributes 30%
+        This rewards candidates with highly relevant sections while
+        still considering overall profile relevance.
         """
-        # 1. Semantic similarity - average of chunk scores
+        # 1. Semantic similarity - use weighted max + avg for better representation
         semantic_scores = [chunk["score"] for chunk in chunks]
-        semantic_similarity = (
-            sum(semantic_scores) / len(semantic_scores) if semantic_scores else 0.0
-        )
+        if semantic_scores:
+            max_score = max(semantic_scores)
+            avg_score = sum(semantic_scores) / len(semantic_scores)
+            # Weighted: 70% best chunk, 30% average (rewards highly relevant sections)
+            semantic_similarity = 0.7 * max_score + 0.3 * avg_score
+        else:
+            semantic_similarity = 0.0
 
         # Normalize to 0-1 (Qdrant cosine similarity can be -1 to 1)
         semantic_similarity = (semantic_similarity + 1) / 2
@@ -477,7 +487,18 @@ class ScoringService:
         return matched, missed
 
     def _extract_candidate_name(self, chunks: List[Dict[str, Any]]) -> Optional[str]:
-        """Try to extract candidate name from chunks."""
+        """Try to extract candidate name from chunks.
+
+        First checks if name is stored directly in payload (preferred),
+        then falls back to text extraction from first chunk.
+        """
+        # First, check if name is stored in any chunk's payload
+        for chunk in chunks:
+            candidate_name = chunk["payload"].get("candidate_name")
+            if candidate_name:
+                return candidate_name
+
+        # Fallback: extract from first chunk text
         for chunk in chunks:
             # Look in first chunk which often contains header
             if chunk["payload"].get("chunk_index", 99) == 0:

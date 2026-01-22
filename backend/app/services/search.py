@@ -84,20 +84,32 @@ class SearchService:
                 query_embedding, session_id, filters
             )
 
-        # Execute hybrid search
-        raw_results = self.qdrant.hybrid_search(
+        # Execute hybrid search with candidate diversity
+        # This ensures we get enough unique candidates, not just many chunks
+        # from a few candidates that happen to match well
+        raw_results = self.qdrant.hybrid_search_with_candidate_diversity(
             query_embedding=query_embedding,
             filters=filters,
-            top_k=request.top_k * 3,  # Get more for scoring
+            min_unique_candidates=request.top_k * 2,  # Get 2x candidates for scoring
+            max_chunks_per_candidate=5,  # Keep top 5 chunks per candidate
         )
 
         logger.info(f"Retrieved {len(raw_results)} chunks from Qdrant")
 
-        # Score and rank candidates
+        # Score and rank candidates (chunks are grouped by candidate_id)
         scored_candidates = self.scorer.score_candidates(
             search_results=raw_results,
             filters=filters,
             query=request.query,
+        )
+
+        # Count unique candidates scanned (before filtering/scoring)
+        unique_candidates_scanned = len(
+            set(
+                r["payload"].get("candidate_id")
+                for r in raw_results
+                if r["payload"].get("candidate_id")
+            )
         )
 
         # Optional: Rerank top candidates
@@ -130,7 +142,7 @@ class SearchService:
             query=request.query,
             filters=filters,
             num_results=len(scored_candidates),
-            total_scanned=len(raw_results),
+            total_scanned=unique_candidates_scanned,
         )
 
         return SearchResponse(
@@ -138,7 +150,7 @@ class SearchService:
             query=request.query,
             extracted_filters=filters,
             matches=scored_candidates,
-            total_candidates_scanned=len(raw_results),
+            total_candidates_scanned=unique_candidates_scanned,
             search_time_ms=search_time_ms,
             filters_applied=filters_applied,
             explanation=explanation,

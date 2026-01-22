@@ -88,6 +88,9 @@ class CandidateChunk(BaseModel):
 
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     candidate_id: str = Field(..., description="Parent candidate identifier")
+    candidate_name: Optional[str] = Field(
+        None, description="Candidate name for display"
+    )
     chunk_index: int = Field(..., description="Order of this chunk in the resume")
     chunk_type: ChunkType = Field(ChunkType.OTHER, description="Section type")
     text: str = Field(..., description="Raw text content of the chunk")

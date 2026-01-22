@@ -114,9 +114,13 @@ class IngestionPipeline:
             chunk_texts = [chunk.text for chunk in candidate.chunks]
             embeddings = self.embedder.embed_texts(chunk_texts)
 
-            # Propagate aggregated metadata to all chunks
+            # Propagate aggregated metadata and candidate name to all chunks
             # This ensures each chunk has the full candidate context
             for chunk in candidate.chunks:
+                # Propagate candidate name to all chunks for easier retrieval
+                if candidate.name:
+                    chunk.candidate_name = candidate.name
+
                 # Merge chunk-specific skills with aggregated skills
                 all_skills = list(
                     set(chunk.metadata.skills + candidate.aggregated_metadata.skills)
@@ -190,8 +194,12 @@ class IngestionPipeline:
             chunk_texts = [chunk.text for chunk in candidate.chunks]
             embeddings = self.embedder.embed_texts(chunk_texts)
 
-            # Propagate metadata
+            # Propagate candidate name and metadata to all chunks
             for chunk in candidate.chunks:
+                # Propagate candidate name to all chunks for easier retrieval
+                if candidate.name:
+                    chunk.candidate_name = candidate.name
+
                 all_skills = list(
                     set(chunk.metadata.skills + candidate.aggregated_metadata.skills)
                 )
@@ -204,6 +212,10 @@ class IngestionPipeline:
                     chunk.metadata.role_category = (
                         candidate.aggregated_metadata.role_category
                     )
+                if chunk.metadata.location is None:
+                    chunk.metadata.location = candidate.aggregated_metadata.location
+                if chunk.metadata.is_remote is None:
+                    chunk.metadata.is_remote = candidate.aggregated_metadata.is_remote
 
             # Store in Qdrant
             self.qdrant.upsert_candidate_chunks_batch(candidate.chunks, embeddings)
