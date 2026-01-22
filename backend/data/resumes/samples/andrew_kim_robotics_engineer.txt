@@ -1,0 +1,40 @@
+Andrew Kim
+andrew.kim@email.com
+Pittsburgh, PA | Open to Remote
+
+PROFESSIONAL SUMMARY
+Robotics Engineer with 5 years of experience developing autonomous systems and robot software. Expert in ROS, perception systems, and motion planning. Strong background in sensor fusion and real-time control systems.
+
+EXPERIENCE
+Senior Robotics Engineer | Boston Dynamics | 2022 - Present
+- Lead developer for Spot robot navigation system
+- Built autonomous inspection workflows for industrial facilities
+- Developed sensor fusion pipeline combining LiDAR, cameras, and IMU
+- Created motion planning algorithms for dynamic obstacle avoidance
+Technologies: C++, Python, ROS2, SLAM, Motion Planning, Perception
+
+Robotics Software Engineer | Amazon Robotics | 2020 - 2022
+- Developed warehouse robot navigation for 500K+ robot fleet
+- Built multi-robot coordination system preventing collisions
+- Implemented path planning algorithms optimizing throughput by 25%
+Technologies: C++, Python, ROS, Navigation, Multi-robot Systems
+
+Robotics Engineer | CMU Robotics Institute | 2019 - 2020
+- Researched autonomous vehicle perception systems
+- Built object detection pipeline for urban environments
+- Developed behavior prediction models for pedestrians and vehicles
+Technologies: Python, PyTorch, ROS, LiDAR, Computer Vision
+
+EDUCATION
+M.S. Robotics | Carnegie Mellon University | 2019
+B.S. Mechanical Engineering | MIT | 2017
+
+SKILLS
+C++, Python, ROS, ROS2, SLAM, Motion Planning, Path Planning, Localization,
+Perception, Computer Vision, LiDAR, Sensor Fusion, Kalman Filters, Controls,
+Real-time Systems, Embedded Systems, Linux, Gazebo, MoveIt, PyTorch, TensorFlow,
+Multi-robot Systems, Autonomous Navigation, Manipulation, Hardware Integration
+
+CERTIFICATIONS
+- ROS2 Developer Certification
+- NVIDIA Jetson AI Certification

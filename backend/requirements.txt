@@ -1,0 +1,31 @@
+# FastAPI and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# PDF parsing
+pypdf==3.17.4
+
+# Qdrant vector database
+qdrant-client==1.7.0
+
+# Embeddings and NLP
+sentence-transformers==2.2.2
+torch>=2.0.0
+
+# Text processing
+nltk==3.8.1
+spacy==3.7.2
+
+# Utilities
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+numpy==1.26.3
+uuid6==2024.1.12
+
+# Optional: Cross-encoder for reranking
+# sentence-transformers includes this
+
+# Optional: OpenAI embeddings (if preferred)
+# openai==1.9.0

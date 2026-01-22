@@ -1,0 +1,41 @@
+Dr. Thomas Wright
+thomas.wright@email.com
+San Francisco, CA | Hybrid
+
+ABOUT
+Quantum Computing Researcher with 6 years of experience in quantum algorithms and quantum software development. Expert in quantum error correction, variational algorithms, and quantum machine learning. Published researcher with focus on near-term quantum applications.
+
+EXPERIENCE
+Senior Quantum Software Engineer | IBM Quantum | 2022 - Present
+- Lead developer for Qiskit quantum computing framework
+- Built quantum error mitigation techniques improving circuit fidelity by 40%
+- Developed variational quantum eigensolver for chemistry simulations
+- Created tutorials and documentation used by 500K+ developers
+Technologies: Python, Qiskit, Quantum Algorithms, Error Mitigation, VQE
+
+Quantum Research Scientist | Google Quantum AI | 2020 - 2022
+- Contributed to quantum supremacy experiments
+- Developed quantum error correction protocols for surface codes
+- Built quantum simulation tools for condensed matter physics
+Technologies: Python, Cirq, TensorFlow Quantum, Error Correction
+
+Postdoctoral Researcher | MIT | 2018 - 2020
+- Researched quantum machine learning algorithms
+- Developed hybrid classical-quantum optimization methods
+- Published 5 papers in top quantum computing journals
+Technologies: Python, QuTiP, NumPy, Quantum Algorithms
+
+EDUCATION
+Ph.D. Physics (Quantum Information) | Caltech | 2018
+B.S. Physics | Princeton University | 2013
+
+SKILLS
+Python, Qiskit, Cirq, PennyLane, Q#, Quantum Algorithms, Quantum Error Correction,
+Variational Quantum Algorithms, VQE, QAOA, Quantum Machine Learning, Quantum Simulation,
+Linear Algebra, Quantum Mechanics, Tensor Networks, Optimization, NumPy, SciPy,
+Research, Scientific Writing, Teaching, Presentation
+
+PUBLICATIONS
+- "Practical Quantum Error Mitigation" - Nature Physics 2023
+- "Variational Quantum Algorithms for Chemistry" - PRX Quantum 2022
+- "Quantum Machine Learning: A Survey" - Reviews of Modern Physics 2021

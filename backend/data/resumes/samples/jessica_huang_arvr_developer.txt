@@ -1,0 +1,40 @@
+Jessica Huang
+jessica.huang@email.com
+San Francisco, CA | Remote
+
+ABOUT
+AR/VR Developer with 4 years of experience building immersive experiences for enterprise and consumer applications. Expert in Unity, Unreal Engine, and spatial computing platforms. Strong background in 3D graphics and interaction design.
+
+EXPERIENCE
+Senior XR Developer | Meta | 2022 - Present
+- Lead developer for Quest productivity apps serving 10M+ users
+- Built hand tracking interaction system with 98% gesture recognition accuracy
+- Developed passthrough mixed reality features for Quest 3
+- Created spatial audio system improving presence and immersion
+Technologies: Unity, C#, Oculus SDK, Hand Tracking, Passthrough, HLSL
+
+AR/VR Developer | Niantic | 2020 - 2022
+- Developed AR features for Pokemon GO played by 100M+ users
+- Built real-world meshing system for occlusion and physics
+- Created multiplayer AR experiences with synchronized world anchors
+Technologies: Unity, ARCore, ARKit, Lightship, C#, Computer Vision
+
+Junior XR Developer | Magic Leap | 2019 - 2020
+- Built enterprise AR applications for manufacturing training
+- Developed spatial mapping for virtual object placement
+- Created gesture-based UI interaction patterns
+Technologies: Unity, Magic Leap SDK, C#, 3D Modeling
+
+EDUCATION
+M.S. Human-Computer Interaction | Georgia Tech | 2019
+B.S. Computer Science | UCLA | 2017
+
+SKILLS
+Unity, Unreal Engine, C#, C++, ARKit, ARCore, Oculus SDK, Meta Quest, HoloLens,
+Apple Vision Pro, visionOS, Hand Tracking, Eye Tracking, Spatial Computing,
+3D Graphics, HLSL, GLSL, Shader Programming, Computer Vision, Interaction Design,
+Spatial Audio, Multiplayer Networking, Performance Optimization, XR Design Patterns
+
+CERTIFICATIONS
+- Unity Certified Expert: Programmer
+- Meta Quest Developer Certification

@@ -1,0 +1,28 @@
+Jane Smith
+jane.smith@email.com
+New York, NY | Open to Remote
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 5 years of experience in web application development.
+Expert in React ecosystem and Node.js backend development.
+
+WORK EXPERIENCE
+
+Full Stack Developer | WebAgency Pro | 2021 - Present
+- Developed customer-facing React applications with TypeScript
+- Built Node.js microservices with Express and NestJS
+- Implemented real-time features using WebSocket and Socket.io
+- Tech stack: React, TypeScript, Node.js, PostgreSQL, Redis, Docker
+
+Frontend Developer | DigitalCo | 2019 - 2021
+- Created responsive web applications using React and Redux
+- Collaborated with UX team to implement pixel-perfect designs
+- Improved page load times by 40% through optimization
+
+EDUCATION
+M.S. Computer Science | NYU | 2019
+B.S. Information Technology | Penn State | 2017
+
+SKILLS
+JavaScript, TypeScript, React, Redux, Node.js, Express, NestJS, PostgreSQL,
+MongoDB, Redis, Docker, AWS, Git, Agile, REST APIs, GraphQL

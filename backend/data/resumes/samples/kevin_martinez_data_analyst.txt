@@ -1,0 +1,38 @@
+Kevin Martinez
+kevin.martinez@email.com
+Austin, TX | Hybrid
+
+SUMMARY
+Junior Data Analyst with 2 years of experience in data analysis, reporting, and visualization. Passionate about using data to drive business decisions. Strong foundation in SQL, Python, and business intelligence tools.
+
+EXPERIENCE
+Data Analyst | Indeed | 2023 - Present
+- Built weekly recruiting metrics dashboards for 200+ hiring managers
+- Developed SQL queries analyzing job seeker behavior patterns
+- Created automated reports reducing manual data compilation by 60%
+- Collaborated with product team to define KPIs for new features
+Technologies: SQL, Python, Tableau, Snowflake, dbt, Jira
+
+Junior Data Analyst | Dell Technologies | 2022 - 2023
+- Analyzed sales data identifying $2M+ upsell opportunities
+- Built Excel models for quarterly forecasting and planning
+- Created data validation scripts improving data quality by 25%
+Technologies: SQL, Excel, Power BI, Salesforce, Python
+
+Data Analytics Intern | Home Depot | 2021 - 2022
+- Assisted in building customer segmentation analysis
+- Developed basic dashboards for store performance tracking
+- Conducted ad-hoc analysis for marketing campaigns
+Technologies: SQL, Excel, Tableau
+
+EDUCATION
+B.S. Business Analytics | Texas A&M University | 2022
+
+SKILLS
+SQL, Python, Pandas, Excel, Tableau, Power BI, Snowflake, BigQuery,
+Data Analysis, Data Visualization, Statistical Analysis, A/B Testing Basics,
+Reporting, Dashboard Design, Google Sheets, dbt, Git
+
+CERTIFICATIONS
+- Google Data Analytics Professional Certificate
+- Tableau Desktop Specialist

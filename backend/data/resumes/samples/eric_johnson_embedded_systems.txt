@@ -1,0 +1,40 @@
+Eric Johnson
+eric.johnson@email.com
+Chicago, IL | Remote
+
+SUMMARY
+Embedded Systems Engineer with 7 years of experience developing firmware for automotive and consumer electronics. Expert in C/C++, real-time operating systems, and hardware-software integration. Strong background in safety-critical systems.
+
+EXPERIENCE
+Principal Embedded Engineer | Tesla | 2021 - Present
+- Lead developer for Autopilot compute platform firmware
+- Built real-time sensor processing achieving 1ms latency requirements
+- Developed boot sequence with secure boot and measured launch
+- Created hardware abstraction layer for multiple SoC platforms
+Technologies: C, C++, Rust, RTOS, ARM, Linux, Safety-critical Systems
+
+Senior Embedded Developer | Apple | 2018 - 2021
+- Developed firmware for AirPods audio processing pipeline
+- Built low-power Bluetooth LE communication achieving 30-hour battery life
+- Created factory testing framework reducing manufacturing time by 40%
+Technologies: C, ARM Cortex, Bluetooth LE, Audio DSP, Low-power Design
+
+Embedded Software Engineer | Garmin | 2016 - 2018
+- Built GPS navigation firmware for aviation products
+- Developed real-time flight instrument displays
+- Created software meeting DO-178C certification requirements
+Technologies: C, RTOS, GPS, Safety-critical Software, DO-178C
+
+EDUCATION
+M.S. Computer Engineering | UIUC | 2016
+B.S. Electrical Engineering | Purdue University | 2014
+
+SKILLS
+C, C++, Rust, Assembly, ARM, RISC-V, RTOS, FreeRTOS, Zephyr, Embedded Linux,
+Real-time Systems, Device Drivers, Memory Management, DMA, SPI, I2C, UART, CAN,
+Low-power Design, Battery Management, Signal Processing, DSP, Hardware Debugging,
+JTAG, Oscilloscopes, Logic Analyzers, Safety-critical Systems, MISRA C, DO-178C
+
+CERTIFICATIONS
+- Embedded Linux Professional
+- Functional Safety Engineer (ISO 26262)

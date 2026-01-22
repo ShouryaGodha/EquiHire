@@ -1,0 +1,39 @@
+Chris Morgan
+chris.morgan@email.com
+Seattle, WA | Open to Remote
+
+SUMMARY
+Senior Frontend Developer with 5 years of experience specializing in Angular and enterprise web applications. Expert in building scalable, accessible, and performant web interfaces for large organizations.
+
+EXPERIENCE
+Senior Frontend Engineer | Microsoft | 2022 - Present
+- Lead developer for Azure Portal components used by 3M+ developers
+- Built design system with 100+ reusable components
+- Implemented accessibility improvements achieving WCAG 2.1 AAA compliance
+- Reduced bundle size by 40% through code splitting and lazy loading
+Technologies: Angular, TypeScript, RxJS, NgRx, SCSS, Azure DevOps
+
+Frontend Developer | Salesforce | 2020 - 2022
+- Developed Lightning Web Components for CRM platform
+- Built real-time collaboration features using WebSocket
+- Created end-to-end testing framework improving release confidence
+Technologies: Angular, TypeScript, LWC, Jest, Cypress, Storybook
+
+Junior Frontend Developer | Deloitte | 2019 - 2020
+- Built client-facing dashboards for financial services clients
+- Implemented responsive designs for mobile and tablet
+- Created data visualization components with D3.js
+Technologies: Angular, JavaScript, D3.js, Bootstrap, REST APIs
+
+EDUCATION
+B.S. Computer Science | University of Washington | 2019
+
+SKILLS
+Angular, TypeScript, JavaScript, RxJS, NgRx, HTML5, CSS3, SCSS, Tailwind CSS,
+Responsive Design, Accessibility, WCAG, Web Components, Jest, Cypress, Storybook,
+Webpack, REST APIs, GraphQL, Git, Azure DevOps, CI/CD, Performance Optimization,
+State Management, Design Systems, D3.js, Data Visualization
+
+CERTIFICATIONS
+- Angular Certified Developer
+- Google UX Design Professional Certificate

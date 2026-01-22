@@ -1,0 +1,39 @@
+Emma Rodriguez
+emma.rodriguez@email.com
+Seattle, WA | Remote
+
+PROFESSIONAL SUMMARY
+Staff Software Engineer specializing in Java backend systems with 10 years of experience. Expert in building high-throughput financial systems, distributed computing, and enterprise architecture. Strong background in performance optimization and system reliability.
+
+EXPERIENCE
+Staff Engineer | Amazon | 2020 - Present
+- Lead architect for AWS billing system processing $80B+ annual revenue
+- Designed distributed ledger system with exactly-once semantics for financial transactions
+- Reduced infrastructure costs by 40% through performance optimization and right-sizing
+- Established architectural guidelines adopted across 15 teams
+Technologies: Java, Spring Boot, DynamoDB, SQS, Lambda, EKS, Terraform
+
+Senior Software Engineer | Goldman Sachs | 2017 - 2020
+- Built real-time trading platform handling 100K+ transactions per second
+- Implemented low-latency order matching engine with sub-millisecond response times
+- Developed risk calculation engine using parallel processing and caching strategies
+Technologies: Java, Spring, Oracle, Hazelcast, Kafka, Linux, Low-latency systems
+
+Software Engineer | Bloomberg | 2014 - 2017
+- Developed market data distribution system serving 300K+ concurrent users
+- Created data normalization pipeline processing feeds from 50+ exchanges
+- Built REST APIs for financial data access with comprehensive documentation
+Technologies: Java, C++, PostgreSQL, Redis, ZeroMQ
+
+EDUCATION
+M.S. Computer Science | Carnegie Mellon University | 2014
+B.S. Computer Engineering | University of Michigan | 2012
+
+SKILLS
+Java, Spring Boot, Spring Cloud, Hibernate, JPA, PostgreSQL, Oracle, DynamoDB,
+Redis, Kafka, SQS, AWS, Kubernetes, Docker, Terraform, gRPC, REST APIs,
+Microservices, Domain-Driven Design, Event Sourcing, Performance Tuning, JVM Optimization
+
+CERTIFICATIONS
+- AWS Solutions Architect Associate
+- Oracle Certified Professional Java SE 17

@@ -1,0 +1,39 @@
+Hannah White
+hannah.white@email.com
+Austin, TX | Remote
+
+ABOUT
+Frontend Developer with 3 years of experience specializing in Vue.js and modern JavaScript frameworks. Passionate about creating intuitive user interfaces and exceptional developer experiences. Strong focus on performance and accessibility.
+
+EXPERIENCE
+Frontend Developer | GitLab | 2022 - Present
+- Core contributor to GitLab web application serving 30M+ users
+- Built Vue 3 migration strategy reducing technical debt significantly
+- Developed CI/CD pipeline visualization improving user comprehension by 40%
+- Created component library with 50+ reusable Vue components
+Technologies: Vue.js, TypeScript, Vuex, Pinia, SCSS, Jest, Cypress
+
+Frontend Developer | Twitch | 2021 - 2022
+- Built chat moderation features for streamers with 1M+ viewers
+- Implemented real-time UI updates with WebSocket
+- Created dark mode implementation improving accessibility scores
+Technologies: Vue.js, JavaScript, Vuex, WebSocket, Sass
+
+Junior Frontend Developer | Zapier | 2020 - 2021
+- Developed workflow builder interface for automation platform
+- Built drag-and-drop components improving user engagement by 25%
+- Created documentation and tutorials for internal component library
+Technologies: Vue.js, JavaScript, REST APIs, Tailwind CSS
+
+EDUCATION
+Bootcamp: Full Stack Web Development | Galvanize | 2020
+B.A. Graphic Design | RISD | 2018
+
+SKILLS
+Vue.js, Vue 3, TypeScript, JavaScript, Vuex, Pinia, HTML5, CSS3, SCSS,
+Tailwind CSS, Nuxt.js, Vitest, Jest, Cypress, Webpack, Vite, REST APIs,
+GraphQL, Git, CI/CD, Responsive Design, Accessibility, Web Performance,
+Storybook, Design Systems, Figma, UI/UX Design
+
+CERTIFICATIONS
+- Vue.js Certified Developer

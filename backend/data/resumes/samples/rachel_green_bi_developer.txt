@@ -1,0 +1,41 @@
+Rachel Green
+rachel.green@email.com
+Denver, CO | Remote
+
+ABOUT
+Business Intelligence Developer with 5 years of experience building analytics solutions and data visualizations. Expert in transforming complex data into actionable insights through dashboards, reports, and self-service analytics platforms.
+
+EXPERIENCE
+Senior BI Developer | Salesforce | 2021 - Present
+- Built executive dashboard suite tracking $30B+ revenue across product lines
+- Created self-service analytics platform serving 5000+ business users
+- Developed automated KPI tracking reducing manual reporting by 90%
+- Led data literacy program training 500+ employees on analytics tools
+Technologies: Tableau, SQL, Python, Snowflake, dbt, Salesforce Einstein Analytics
+
+BI Developer | HubSpot | 2019 - 2021
+- Designed customer analytics dashboard improving retention insights
+- Built marketing attribution model tracking $50M+ advertising spend
+- Created real-time sales pipeline visualization for 1000+ reps
+Technologies: Looker, SQL, BigQuery, Python, Fivetran, Segment
+
+Data Analyst | Zendesk | 2018 - 2019
+- Developed customer support analytics improving CSAT by 15%
+- Built automated reporting pipeline for weekly business reviews
+- Created cohort analysis framework for product usage patterns
+Technologies: SQL, Tableau, Python, Redshift, Mode Analytics
+
+EDUCATION
+M.S. Business Analytics | NYU Stern | 2018
+B.A. Economics | University of Colorado | 2016
+
+SKILLS
+SQL, Python, Tableau, Looker, Power BI, Snowflake, BigQuery, Redshift, dbt,
+Data Modeling, Dimensional Modeling, ETL, Data Visualization, Dashboard Design,
+Statistical Analysis, A/B Testing, Excel, Google Sheets, Fivetran, Segment, Airbyte,
+Business Intelligence, Self-service Analytics, Data Storytelling
+
+CERTIFICATIONS
+- Tableau Desktop Certified Professional
+- Looker Developer Certification
+- dbt Analytics Engineering Certification

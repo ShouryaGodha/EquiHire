@@ -1,0 +1,38 @@
+Priya Sharma
+priya.sharma@email.com
+Boston, MA | Remote
+
+ABOUT
+Senior Data Scientist with 6 years of experience in statistical modeling, machine learning, and business analytics. Expert in translating complex data insights into actionable business recommendations. Strong background in experimentation and causal inference.
+
+EXPERIENCE
+Staff Data Scientist | Airbnb | 2021 - Present
+- Led pricing optimization project increasing host revenue by 18% globally
+- Built demand forecasting models with 94% accuracy for inventory planning
+- Designed A/B testing framework used across 50+ product teams
+- Created customer segmentation model identifying high-value user cohorts
+Technologies: Python, SQL, Spark, Airflow, Tableau, Looker, BigQuery
+
+Senior Data Scientist | LinkedIn | 2019 - 2021
+- Developed job recommendation algorithm improving click-through rate by 25%
+- Built churn prediction model with 0.89 AUC, saving $5M annually
+- Created causal inference framework for measuring feature impact
+Technologies: Python, Scala, Spark, Hive, Presto, Jupyter, MLflow
+
+Data Scientist | Wayfair | 2018 - 2019
+- Built product recommendation engine increasing conversion by 15%
+- Developed customer lifetime value model for marketing optimization
+- Created automated reporting pipeline reducing manual analysis by 80%
+Technologies: Python, R, SQL, Redshift, Tableau
+
+EDUCATION
+Ph.D. Statistics | Harvard University | 2018
+B.S. Mathematics | UC San Diego | 2013
+
+SKILLS
+Python, R, SQL, Spark, PySpark, Pandas, NumPy, Scikit-learn, XGBoost, LightGBM,
+Statistical Modeling, A/B Testing, Causal Inference, Time Series, Bayesian Methods,
+Tableau, Looker, Airflow, MLflow, BigQuery, Redshift, Experimentation, Feature Engineering
+
+CERTIFICATIONS
+- Google Professional Data Engineer

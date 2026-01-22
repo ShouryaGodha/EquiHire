@@ -1,0 +1,41 @@
+Jennifer Kim
+jennifer.kim@email.com
+New York, NY | Hybrid
+
+SUMMARY
+Security Engineer with 6 years of experience in application security, penetration testing, and security architecture. Expert in identifying vulnerabilities, implementing security controls, and building secure development practices.
+
+EXPERIENCE
+Senior Security Engineer | Stripe | 2021 - Present
+- Lead application security for payment processing systems handling $500B+ annually
+- Built automated security scanning pipeline catching 95% of vulnerabilities pre-production
+- Designed zero-trust architecture for internal service authentication
+- Led incident response for security events, reducing resolution time by 50%
+Technologies: Python, Go, Burp Suite, OWASP ZAP, AWS, Kubernetes, Terraform
+
+Security Engineer | Coinbase | 2019 - 2021
+- Conducted penetration testing identifying critical vulnerabilities in crypto wallets
+- Built security monitoring system detecting anomalous transaction patterns
+- Implemented secure key management for $100B+ in digital assets
+Technologies: Python, Golang, AWS, GCP, HashiCorp Vault, Splunk
+
+Application Security Engineer | JPMorgan | 2018 - 2019
+- Performed security code reviews for trading platforms
+- Built threat modeling process for new application development
+- Created security training program for 500+ developers
+Technologies: Java, Python, Static Analysis Tools, SAST, DAST
+
+EDUCATION
+M.S. Cybersecurity | NYU Tandon | 2018
+B.S. Computer Science | Georgia Tech | 2016
+
+SKILLS
+Python, Go, Java, Security Architecture, Penetration Testing, Vulnerability Assessment,
+OWASP Top 10, Secure Coding, Threat Modeling, Security Code Review, SAST, DAST,
+Burp Suite, Metasploit, AWS Security, Kubernetes Security, Zero Trust, IAM,
+Incident Response, Security Monitoring, Cryptography, HashiCorp Vault, SOC 2
+
+CERTIFICATIONS
+- OSCP (Offensive Security Certified Professional)
+- CISSP (Certified Information Systems Security Professional)
+- AWS Security Specialty

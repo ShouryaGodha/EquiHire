@@ -1,0 +1,41 @@
+Michael Chang
+michael.chang@email.com
+New York, NY | Hybrid
+
+PROFESSIONAL SUMMARY
+Solutions Architect with 12 years of experience designing enterprise software solutions. Expert in translating business requirements into technical architectures. Strong background in system design, integration patterns, and technical leadership.
+
+EXPERIENCE
+Principal Solutions Architect | Salesforce | 2020 - Present
+- Lead architect for enterprise deals worth $50M+ annually
+- Designed multi-cloud integration architecture for Fortune 100 clients
+- Created solution patterns adopted by 500+ implementation partners
+- Mentored 20+ architects on best practices and design principles
+Technologies: Salesforce, AWS, Azure, MuleSoft, Integration Patterns, APIs
+
+Senior Solutions Architect | Deloitte | 2016 - 2020
+- Architected digital transformation solutions for banking clients
+- Designed microservices architecture handling $1B+ daily transactions
+- Led technical due diligence for $500M acquisition
+Technologies: AWS, Java, Kubernetes, Kafka, Oracle, Event-Driven Architecture
+
+Software Architect | IBM | 2012 - 2016
+- Designed enterprise integration solutions using IBM middleware
+- Built reference architectures for hybrid cloud deployments
+- Created architectural governance framework for 1000+ developer organization
+Technologies: WebSphere, MQ, API Connect, Cloud Foundry, Java
+
+EDUCATION
+M.S. Software Engineering | Carnegie Mellon University | 2012
+B.S. Computer Science | Georgia Tech | 2010
+
+SKILLS
+Solution Architecture, Enterprise Architecture, System Design, Microservices,
+Event-Driven Architecture, Integration Patterns, API Design, AWS, Azure, GCP,
+Salesforce, MuleSoft, Kafka, Java, Python, Kubernetes, Terraform, Security,
+Technical Leadership, Stakeholder Management, RFP Response, Presales
+
+CERTIFICATIONS
+- AWS Solutions Architect Professional
+- Salesforce Certified Technical Architect
+- TOGAF 9 Certified

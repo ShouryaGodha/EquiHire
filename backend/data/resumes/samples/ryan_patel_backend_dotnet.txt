@@ -1,0 +1,39 @@
+Ryan Patel
+ryan.patel@email.com
+Chicago, IL | Hybrid
+
+PROFESSIONAL SUMMARY
+Senior .NET Developer with 7 years of enterprise software development experience. Expert in C#, ASP.NET Core, and Azure cloud services. Strong background in building scalable APIs, microservices, and enterprise integration patterns.
+
+EXPERIENCE
+Senior Software Engineer | Microsoft | 2021 - Present
+- Lead developer for Azure DevOps backend services serving 10M+ developers
+- Architected multi-tenant SaaS platform with 99.99% uptime SLA
+- Built CI/CD pipeline optimization reducing build times by 50%
+- Designed event-driven architecture using Azure Service Bus
+Technologies: C#, ASP.NET Core, Azure, SQL Server, Cosmos DB, Service Bus
+
+Software Engineer II | Salesforce | 2018 - 2021
+- Developed CRM integration APIs connecting 500+ enterprise customers
+- Built real-time data synchronization pipeline processing 5M records daily
+- Implemented OAuth 2.0 authentication system with multi-tenant support
+Technologies: C#, .NET Core, PostgreSQL, Redis, RabbitMQ, Docker
+
+.NET Developer | Accenture | 2016 - 2018
+- Built healthcare management system for 50+ hospital clients
+- Developed HL7 FHIR integration for medical records exchange
+- Created reporting dashboard with real-time analytics
+Technologies: C#, ASP.NET MVC, SQL Server, Entity Framework, Angular
+
+EDUCATION
+M.S. Software Engineering | Northwestern University | 2016
+B.S. Computer Science | University of Illinois | 2014
+
+SKILLS
+C#, ASP.NET Core, .NET 8, Entity Framework, SQL Server, Cosmos DB, Azure,
+Azure Functions, Service Bus, Redis, Docker, Kubernetes, REST APIs, gRPC,
+Microservices, CQRS, MediatR, SignalR, Blazor, xUnit, Integration Patterns
+
+CERTIFICATIONS
+- Microsoft Certified: Azure Developer Associate
+- Microsoft Certified: Azure Solutions Architect Expert

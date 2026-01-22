@@ -1,0 +1,41 @@
+Robert Chen
+robert.chen@email.com
+Chicago, IL | Remote
+
+ABOUT
+Database Administrator with 10 years of experience managing large-scale database systems for enterprise applications. Expert in performance tuning, high availability, and database migrations. Strong background in both relational and NoSQL databases.
+
+EXPERIENCE
+Principal Database Engineer | MongoDB | 2020 - Present
+- Lead DBA for MongoDB Atlas supporting 30K+ customers globally
+- Designed sharding strategy for 100TB+ database clusters
+- Built automated performance optimization reducing query latency by 60%
+- Created disaster recovery procedures achieving RPO of 1 second
+Technologies: MongoDB, PostgreSQL, Python, Kubernetes, AWS, Terraform
+
+Senior DBA | Oracle | 2016 - 2020
+- Managed 500+ Oracle databases for Fortune 100 banking clients
+- Implemented RAC clusters with 99.999% uptime for mission-critical systems
+- Led migration from Oracle to PostgreSQL saving $10M+ in licensing
+Technologies: Oracle, PostgreSQL, MySQL, SQL Server, Data Guard, RMAN
+
+Database Administrator | Bank of America | 2014 - 2016
+- Administered databases supporting $2T+ in daily transactions
+- Built replication topology for cross-datacenter failover
+- Optimized slow queries improving application response time by 40%
+Technologies: Oracle, SQL Server, DB2, Shell Scripting, Performance Tuning
+
+EDUCATION
+M.S. Information Systems | DePaul University | 2014
+B.S. Computer Science | University of Illinois | 2012
+
+SKILLS
+PostgreSQL, MySQL, Oracle, MongoDB, SQL Server, Redis, Cassandra, DynamoDB,
+Database Design, Query Optimization, Performance Tuning, Indexing Strategies,
+Replication, Sharding, High Availability, Disaster Recovery, Backup and Recovery,
+Database Migration, Schema Design, ETL, Python, Bash, Kubernetes, AWS RDS, Aurora
+
+CERTIFICATIONS
+- MongoDB Certified DBA Associate
+- Oracle Certified Professional DBA
+- AWS Database Specialty

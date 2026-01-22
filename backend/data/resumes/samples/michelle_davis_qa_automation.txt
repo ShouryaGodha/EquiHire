@@ -1,0 +1,39 @@
+Michelle Davis
+michelle.davis@email.com
+Seattle, WA | Hybrid
+
+ABOUT
+QA Automation Engineer with 5 years of experience building scalable test frameworks and ensuring software quality. Expert in test automation, CI/CD integration, and quality strategy. Strong background in both functional and performance testing.
+
+EXPERIENCE
+Senior QA Automation Engineer | Amazon | 2021 - Present
+- Built test automation framework running 50K+ tests nightly
+- Reduced regression testing time from 2 days to 4 hours
+- Created visual regression testing catching 95% of UI issues
+- Developed performance testing suite identifying bottlenecks pre-production
+Technologies: Python, Selenium, Playwright, Jest, JMeter, AWS, Jenkins
+
+QA Automation Engineer | Expedia | 2019 - 2021
+- Developed API testing framework covering 500+ endpoints
+- Built mobile test automation for iOS and Android apps
+- Created contract testing reducing integration failures by 70%
+Technologies: Java, TestNG, Appium, REST Assured, Pact, Docker
+
+QA Engineer | Adobe | 2018 - 2019
+- Implemented automated testing for Creative Cloud applications
+- Built performance benchmarking framework for Photoshop
+- Created accessibility testing tools ensuring WCAG compliance
+Technologies: Python, Selenium, pytest, Accessibility Testing
+
+EDUCATION
+B.S. Computer Science | Arizona State University | 2018
+
+SKILLS
+Python, Java, JavaScript, Selenium, Playwright, Cypress, Appium, REST Assured,
+pytest, JUnit, TestNG, Jest, Performance Testing, JMeter, Gatling, LoadRunner,
+API Testing, Contract Testing, Pact, Mobile Testing, CI/CD, Jenkins, GitHub Actions,
+Docker, Test Strategy, Test Planning, Agile Testing, BDD, Cucumber, Quality Metrics
+
+CERTIFICATIONS
+- ISTQB Certified Test Automation Engineer
+- AWS Certified Developer Associate

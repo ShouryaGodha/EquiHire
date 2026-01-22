@@ -1,0 +1,38 @@
+Sofia Ramirez
+sofia.ramirez@email.com
+Miami, FL | Remote
+
+ABOUT
+Senior iOS Developer with 6 years of experience building native iOS applications used by millions. Expert in Swift, SwiftUI, and iOS frameworks. Strong focus on performance, accessibility, and beautiful user experiences.
+
+EXPERIENCE
+Senior iOS Engineer | Uber | 2021 - Present
+- Lead developer for Uber Rider app serving 100M+ monthly active users
+- Built real-time ride tracking with MapKit achieving sub-second location updates
+- Implemented offline-first architecture improving app reliability by 40%
+- Led SwiftUI migration reducing codebase by 30% while improving maintainability
+Technologies: Swift, SwiftUI, UIKit, Combine, Core Location, MapKit, GraphQL
+
+iOS Developer | Instagram | 2019 - 2021
+- Developed Reels video editing features used by 500M+ creators
+- Built camera module with real-time filters and effects
+- Optimized video processing reducing encoding time by 50%
+Technologies: Swift, Objective-C, AVFoundation, Core Image, Metal
+
+iOS Developer | Lyft | 2018 - 2019
+- Implemented payment flow with Apple Pay integration
+- Built accessibility features achieving WCAG 2.1 AA compliance
+- Created unit testing framework improving code coverage to 85%
+Technologies: Swift, UIKit, Core Data, XCTest, Fastlane
+
+EDUCATION
+B.S. Computer Science | Florida International University | 2018
+
+SKILLS
+Swift, SwiftUI, UIKit, Objective-C, Combine, Core Data, Core Location, MapKit,
+AVFoundation, Core Image, Metal, ARKit, Push Notifications, REST APIs, GraphQL,
+MVVM, Clean Architecture, Unit Testing, XCTest, Fastlane, CI/CD, App Store Connect,
+Accessibility, Performance Optimization, Memory Management, Instruments
+
+CERTIFICATIONS
+- Apple Certified iOS Developer

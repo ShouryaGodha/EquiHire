@@ -1,0 +1,41 @@
+Marcus Thompson
+marcus.thompson@email.com
+New York, NY | Hybrid
+
+ABOUT
+Fintech Developer with 6 years of experience building financial software and trading systems. Expert in real-time data processing, regulatory compliance, and high-performance computing. Strong background in quantitative finance and risk management.
+
+EXPERIENCE
+Senior Fintech Engineer | Robinhood | 2021 - Present
+- Built order execution system processing $5B+ daily trading volume
+- Developed real-time portfolio tracking for 20M+ users
+- Created fractional share trading engine with sub-cent precision
+- Led compliance implementation for SEC and FINRA regulations
+Technologies: Python, Go, PostgreSQL, Kafka, Redis, AWS, Kubernetes
+
+Quantitative Developer | Two Sigma | 2019 - 2021
+- Built backtesting framework for trading strategies
+- Developed market data pipeline processing 10M+ events per second
+- Created risk models for portfolio optimization
+Technologies: Python, C++, NumPy, Pandas, kdb+, Low-latency Systems
+
+Software Engineer | Bloomberg | 2018 - 2019
+- Developed financial data APIs for terminal platform
+- Built real-time news sentiment analysis features
+- Created portfolio analytics tools for institutional clients
+Technologies: C++, Python, JavaScript, Financial Data, REST APIs
+
+EDUCATION
+M.S. Financial Engineering | Columbia University | 2018
+B.S. Computer Science | MIT | 2016
+
+SKILLS
+Python, Go, C++, Java, SQL, PostgreSQL, Redis, Kafka, AWS, Kubernetes,
+Financial Systems, Trading Systems, Order Management, Market Data, FIX Protocol,
+Risk Management, Portfolio Analytics, Quantitative Finance, Backtesting,
+Regulatory Compliance, SEC, FINRA, Real-time Systems, Low-latency, NumPy, Pandas
+
+CERTIFICATIONS
+- Series 7 & 63 Licensed
+- CFA Level II Candidate
+- AWS Solutions Architect Associate

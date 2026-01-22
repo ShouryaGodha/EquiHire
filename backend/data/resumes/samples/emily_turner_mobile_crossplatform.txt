@@ -1,0 +1,39 @@
+Emily Turner
+emily.turner@email.com
+Los Angeles, CA | Remote
+
+ABOUT
+Cross-platform Mobile Developer with 4 years of experience building apps using React Native and Flutter. Expert in delivering native-quality experiences from a single codebase. Strong background in both iOS and Android platforms.
+
+EXPERIENCE
+Senior Mobile Developer | Shopify | 2022 - Present
+- Lead developer for Shop app used by 100M+ shoppers
+- Built cross-platform features using React Native reducing development time by 50%
+- Implemented native module bridges for platform-specific functionality
+- Created shared component library used across 5 Shopify mobile apps
+Technologies: React Native, TypeScript, Redux, Native Modules, Jest, Detox
+
+Mobile Developer | DoorDash | 2020 - 2022
+- Developed delivery tracking features with real-time updates
+- Built offline-first architecture handling poor network conditions
+- Implemented push notification system with 95%+ delivery rate
+Technologies: React Native, JavaScript, Redux Saga, Firebase, CodePush
+
+Junior Mobile Developer | Freelance | 2019 - 2020
+- Built Flutter apps for 10+ startup clients
+- Created e-commerce app with 50K+ downloads
+- Developed fitness tracking app with HealthKit/Google Fit integration
+Technologies: Flutter, Dart, Firebase, Provider, BLoC
+
+EDUCATION
+B.S. Software Engineering | UCLA | 2019
+
+SKILLS
+React Native, Flutter, TypeScript, JavaScript, Dart, Redux, MobX, Provider, BLoC,
+iOS, Android, Native Modules, Swift, Kotlin, Firebase, Push Notifications,
+REST APIs, GraphQL, Jest, Detox, CI/CD, Fastlane, App Store Deployment,
+Cross-platform Development, Mobile UI/UX, Offline-first Architecture
+
+CERTIFICATIONS
+- React Native Certified Developer
+- Google Flutter Development Bootcamp

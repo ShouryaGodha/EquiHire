@@ -1,0 +1,40 @@
+Rebecca Foster
+rebecca.foster@email.com
+Seattle, WA | Hybrid
+
+ABOUT
+IoT Developer with 4 years of experience building connected device solutions for industrial and consumer applications. Expert in embedded systems, sensor networks, and edge computing. Strong background in low-power design and protocols.
+
+EXPERIENCE
+Senior IoT Engineer | Microsoft | 2022 - Present
+- Lead developer for Azure IoT Edge modules serving 10M+ devices
+- Built device provisioning system with secure boot and attestation
+- Developed predictive maintenance solution reducing downtime by 40%
+- Created edge AI deployment framework for real-time analytics
+Technologies: C, C++, Python, Azure IoT, MQTT, Kubernetes, Edge AI
+
+IoT Developer | Tesla | 2020 - 2022
+- Built vehicle telemetry system processing 1B+ data points daily
+- Developed OTA update system for vehicle fleet management
+- Created energy monitoring for Powerwall home battery systems
+Technologies: C, C++, Python, MQTT, AWS IoT, Embedded Linux
+
+Embedded Software Engineer | Ring | 2019 - 2020
+- Developed firmware for smart doorbell cameras
+- Built low-power video streaming with 6-month battery life
+- Created mesh networking for device communication
+Technologies: C, FreeRTOS, Bluetooth LE, WiFi, Video Encoding
+
+EDUCATION
+M.S. Electrical Engineering | Stanford University | 2019
+B.S. Computer Engineering | University of Michigan | 2017
+
+SKILLS
+C, C++, Python, Embedded Systems, FreeRTOS, Linux, ARM, MQTT, CoAP, AMQP,
+Bluetooth LE, WiFi, LoRaWAN, Zigbee, Thread, Matter, Azure IoT, AWS IoT,
+Sensor Integration, Edge Computing, Real-time Systems, Low-power Design,
+PCB Design, Oscilloscopes, Logic Analyzers, OTA Updates, Device Security
+
+CERTIFICATIONS
+- AWS IoT Specialty
+- ARM Accredited Engineer

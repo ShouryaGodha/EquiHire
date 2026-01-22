@@ -1,0 +1,42 @@
+Maria Garcia
+maria.garcia@email.com
+San Francisco, CA | Open to Remote
+
+PROFESSIONAL SUMMARY
+Cloud Architect with 9 years of experience designing and implementing enterprise cloud solutions. Expert in multi-cloud strategy, cost optimization, and cloud-native architecture. Led cloud transformations for Fortune 500 companies.
+
+EXPERIENCE
+Principal Cloud Architect | AWS | 2021 - Present
+- Lead architect for enterprise customers with $100M+ annual cloud spend
+- Designed multi-region active-active architecture for global financial services client
+- Created Well-Architected reviews saving customers $50M+ annually
+- Built reference architectures for serverless and container-based applications
+Technologies: AWS, Terraform, Kubernetes, Lambda, DynamoDB, Aurora, CDK
+
+Senior Cloud Architect | Accenture | 2018 - 2021
+- Led cloud migration for 5 Fortune 500 clients moving 2000+ applications
+- Designed hybrid cloud architecture connecting on-premise and cloud workloads
+- Created cloud governance framework ensuring security and compliance
+Technologies: AWS, Azure, GCP, Terraform, Ansible, VMware, Kubernetes
+
+Cloud Engineer | Capital One | 2015 - 2018
+- Built cloud infrastructure for digital banking platform serving 50M customers
+- Implemented infrastructure as code reducing provisioning time by 95%
+- Created automated security scanning pipeline for cloud deployments
+Technologies: AWS, Terraform, Jenkins, Docker, CloudFormation, Python
+
+EDUCATION
+M.S. Computer Science | Stanford University | 2015
+B.S. Information Systems | UC Davis | 2013
+
+SKILLS
+AWS, Azure, GCP, Terraform, CloudFormation, CDK, Kubernetes, Docker, Serverless,
+Lambda, API Gateway, DynamoDB, Aurora, RDS, S3, EC2, EKS, ECS, VPC, IAM,
+Cloud Security, Cost Optimization, Well-Architected Framework, Multi-cloud,
+Hybrid Cloud, Migration Strategy, Enterprise Architecture, Solution Design
+
+CERTIFICATIONS
+- AWS Solutions Architect Professional
+- AWS DevOps Professional
+- Azure Solutions Architect Expert
+- Google Cloud Professional Cloud Architect

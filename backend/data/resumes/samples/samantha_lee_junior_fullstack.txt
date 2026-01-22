@@ -1,0 +1,39 @@
+Samantha Lee
+samantha.lee@email.com
+Remote | Open to Relocation
+
+PROFESSIONAL SUMMARY
+Junior Full Stack Developer with 1 year of experience building web applications. Recent bootcamp graduate with strong foundation in JavaScript, React, and Node.js. Eager to learn and grow in a collaborative team environment.
+
+EXPERIENCE
+Junior Full Stack Developer | Startup Co | 2024 - Present
+- Built customer-facing dashboard using React and TypeScript
+- Developed REST APIs handling user authentication and data management
+- Implemented responsive designs improving mobile user experience
+- Collaborated with senior developers on code reviews and best practices
+Technologies: React, TypeScript, Node.js, PostgreSQL, AWS
+
+Full Stack Development Intern | Tech Agency | 2023 - 2024
+- Created landing pages for 5+ client projects
+- Built contact forms with email integration
+- Assisted in migrating legacy applications to React
+Technologies: JavaScript, React, HTML, CSS, Node.js
+
+Freelance Web Developer | Self-employed | 2023
+- Built portfolio websites for local businesses
+- Created e-commerce site using Shopify and custom themes
+Technologies: HTML, CSS, JavaScript, Shopify
+
+EDUCATION
+Bootcamp: Full Stack Web Development | App Academy | 2023
+B.A. Communications | University of Arizona | 2022
+
+SKILLS
+JavaScript, TypeScript, React, Node.js, Express, HTML5, CSS3, Tailwind CSS,
+PostgreSQL, MongoDB, REST APIs, Git, GitHub, VS Code, Responsive Design,
+Basic AWS, Heroku, Netlify, Agile, Communication, Problem Solving
+
+PROJECTS
+- Personal Finance Tracker: React app with Chart.js visualization
+- Recipe Sharing Platform: Full stack app with user authentication
+- Weather Dashboard: API integration with geolocation features

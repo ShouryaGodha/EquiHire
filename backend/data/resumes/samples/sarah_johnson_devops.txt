@@ -1,0 +1,32 @@
+Sarah Johnson
+sarah.j@email.com
+Austin, TX | Remote
+
+PROFILE
+DevOps Engineer with 6 years of experience in cloud infrastructure and automation.
+Certified AWS Solutions Architect and Kubernetes Administrator.
+
+PROFESSIONAL EXPERIENCE
+
+Senior DevOps Engineer | CloudScale Inc. | 2021 - Present
+- Architected multi-region AWS infrastructure for high availability
+- Implemented GitOps workflows using ArgoCD and Flux
+- Reduced deployment time from hours to minutes with CI/CD automation
+- Managed Kubernetes clusters with 500+ pods across environments
+
+DevOps Engineer | TechServices | 2018 - 2021
+- Built infrastructure as code using Terraform and CloudFormation
+- Implemented monitoring and alerting with Prometheus and Grafana
+- Automated security compliance checks and vulnerability scanning
+
+EDUCATION
+B.S. Computer Engineering | UT Austin | 2018
+
+CERTIFICATIONS
+- AWS Solutions Architect Professional
+- Certified Kubernetes Administrator (CKA)
+- HashiCorp Terraform Associate
+
+SKILLS
+AWS, GCP, Azure, Kubernetes, Docker, Terraform, Ansible, Jenkins, GitLab CI,
+GitHub Actions, ArgoCD, Prometheus, Grafana, Linux, Python, Bash, Go

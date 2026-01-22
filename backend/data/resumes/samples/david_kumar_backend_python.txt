@@ -1,0 +1,39 @@
+David Kumar
+david.kumar@email.com
+Austin, TX | Open to Remote
+
+ABOUT
+Senior Backend Engineer with 8 years of experience building scalable distributed systems and APIs. Expert in Python ecosystem with deep knowledge of async programming, database optimization, and microservices architecture. Passionate about clean code and system design.
+
+EXPERIENCE
+Principal Backend Engineer | Stripe | 2021 - Present
+- Architected payment processing system handling $50B+ annual transaction volume
+- Led migration from monolith to microservices, reducing deployment time by 75%
+- Designed event-driven architecture using Kafka processing 2M events/minute
+- Mentored team of 8 engineers, established coding standards and review processes
+Technologies: Python, FastAPI, PostgreSQL, Redis, Kafka, AWS, Kubernetes
+
+Senior Backend Engineer | Dropbox | 2018 - 2021
+- Built file synchronization service handling 500M+ daily sync operations
+- Optimized database queries reducing p99 latency from 800ms to 120ms
+- Implemented rate limiting and circuit breaker patterns for API resilience
+Technologies: Python, Django, MySQL, Redis, gRPC, Docker
+
+Backend Engineer | Twilio | 2016 - 2018
+- Developed SMS routing engine processing 10M+ messages daily
+- Created webhook delivery system with 99.99% reliability
+- Built monitoring dashboards tracking system health metrics
+Technologies: Python, Flask, PostgreSQL, RabbitMQ, AWS
+
+EDUCATION
+M.S. Computer Science | UT Austin | 2016
+B.Tech Information Technology | IIT Delhi | 2014
+
+SKILLS
+Python, FastAPI, Django, Flask, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ,
+AWS, GCP, Docker, Kubernetes, gRPC, REST APIs, Microservices, Event Sourcing,
+CQRS, System Design, Async Programming, Celery, SQLAlchemy, pytest
+
+CERTIFICATIONS
+- AWS Solutions Architect Professional
+- Python Institute PCPP

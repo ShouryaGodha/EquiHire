@@ -1,0 +1,41 @@
+Aisha Mohammed
+aisha.mohammed@email.com
+San Francisco, CA | Remote
+
+ABOUT
+Senior NLP Engineer with 5 years of experience in natural language processing and large language models. Expert in building production NLP systems for search, question answering, and conversational AI. Published researcher with focus on multilingual NLP.
+
+EXPERIENCE
+Senior NLP Engineer | Anthropic | 2023 - Present
+- Developed RLHF pipeline for training constitutional AI models
+- Built evaluation benchmarks for measuring model safety and helpfulness
+- Created data curation pipeline for high-quality training data at scale
+- Optimized tokenization and embedding systems for multilingual support
+Technologies: Python, PyTorch, JAX, Transformers, CUDA, Kubernetes
+
+NLP Engineer | Google | 2020 - 2023
+- Built neural search system for Google Search improving relevance by 15%
+- Developed multilingual question answering model supporting 100+ languages
+- Created named entity recognition system processing 1B+ queries daily
+- Led research on efficient transformer architectures
+Technologies: Python, TensorFlow, JAX, T5, BERT, Spanner, BigQuery
+
+Machine Learning Engineer | Grammarly | 2019 - 2020
+- Developed grammar correction model with 96% precision
+- Built style transfer system for tone adjustment
+- Created writing assistant features using sequence-to-sequence models
+Technologies: Python, PyTorch, Transformers, spaCy, FastAPI
+
+EDUCATION
+Ph.D. Computational Linguistics | Stanford University | 2019
+B.S. Computer Science | UC Berkeley | 2014
+
+SKILLS
+Python, PyTorch, TensorFlow, JAX, Transformers, BERT, GPT, T5, LLaMA, LangChain,
+NLP, NLU, NLG, Information Retrieval, Question Answering, Named Entity Recognition,
+Sentiment Analysis, Machine Translation, RAG, Vector Databases, Pinecone, Weaviate,
+spaCy, NLTK, Hugging Face, RLHF, Constitutional AI, Prompt Engineering
+
+PUBLICATIONS
+- "Efficient Multilingual NLP with Sparse Transformers" - ACL 2022
+- "Cross-lingual Transfer Learning for Low-resource Languages" - EMNLP 2021

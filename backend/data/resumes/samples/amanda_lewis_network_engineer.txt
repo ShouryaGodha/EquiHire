@@ -1,0 +1,40 @@
+Amanda Lewis
+amanda.lewis@email.com
+Dallas, TX | Open to Remote
+
+PROFESSIONAL SUMMARY
+Network Engineer with 7 years of experience designing and maintaining enterprise network infrastructure. Expert in software-defined networking, network security, and cloud networking. Strong background in both on-premise and cloud environments.
+
+EXPERIENCE
+Senior Network Engineer | Cisco | 2020 - Present
+- Architected SD-WAN solutions for 100+ enterprise customers
+- Designed network infrastructure supporting 1M+ concurrent users
+- Built network automation reducing configuration time by 80%
+- Led network security initiatives implementing zero-trust architecture
+Technologies: Cisco IOS, SD-WAN, BGP, OSPF, Python, Ansible, Terraform
+
+Network Engineer | Verizon | 2017 - 2020
+- Managed backbone network infrastructure for 5G rollout
+- Implemented MPLS networks connecting 500+ enterprise locations
+- Built monitoring systems tracking 10K+ network devices
+Technologies: Juniper, Cisco, MPLS, BGP, OSPF, Nagios, Splunk
+
+Junior Network Engineer | AT&T | 2016 - 2017
+- Configured and troubleshot customer network equipment
+- Built automation scripts for routine network tasks
+- Monitored network performance and resolved incidents
+Technologies: Cisco, Juniper, Python, Linux, TCP/IP
+
+EDUCATION
+B.S. Network Engineering | Texas Tech University | 2016
+
+SKILLS
+Cisco IOS, Juniper, Arista, BGP, OSPF, EIGRP, MPLS, SD-WAN, VPN, Firewall,
+TCP/IP, DNS, DHCP, Load Balancing, F5, AWS VPC, Azure Networking, GCP Networking,
+Network Security, Zero Trust, Network Automation, Python, Ansible, Terraform,
+Wireshark, Network Monitoring, Datadog, Splunk, Linux
+
+CERTIFICATIONS
+- CCIE (Cisco Certified Internetwork Expert) Routing & Switching
+- AWS Advanced Networking Specialty
+- Juniper Networks Certified Internet Professional

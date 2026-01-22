@@ -1,0 +1,39 @@
+James Wilson
+james.wilson@email.com
+New York, NY | Open to Remote
+
+PROFESSIONAL SUMMARY
+Senior Machine Learning Engineer with 5 years of experience deploying ML systems at scale. Expert in deep learning, NLP, and MLOps. Strong track record of taking models from research to production with measurable business impact.
+
+EXPERIENCE
+Senior ML Engineer | OpenAI | 2022 - Present
+- Built fine-tuning infrastructure for GPT models serving 100M+ API requests daily
+- Developed evaluation framework for measuring model safety and alignment
+- Optimized inference pipeline reducing latency by 60% and cost by 40%
+- Created data annotation tools improving labeling efficiency by 3x
+Technologies: Python, PyTorch, CUDA, Kubernetes, Ray, Weights & Biases
+
+ML Engineer | Netflix | 2020 - 2022
+- Built personalization models improving user engagement by 12%
+- Developed video encoding optimization using deep learning, saving $10M/year
+- Created feature store serving 200M+ features per second
+Technologies: Python, TensorFlow, Spark, Flink, Kafka, AWS SageMaker
+
+Machine Learning Engineer | Spotify | 2019 - 2020
+- Developed music recommendation algorithms for 350M+ users
+- Built content understanding models for audio and metadata analysis
+- Implemented online learning pipeline for real-time model updates
+Technologies: Python, TensorFlow, Spark, GCP, BigQuery, Dataflow
+
+EDUCATION
+M.S. Machine Learning | Georgia Tech | 2019
+B.S. Computer Science | Cornell University | 2017
+
+SKILLS
+Python, PyTorch, TensorFlow, JAX, CUDA, Transformers, LLMs, NLP, Computer Vision,
+Deep Learning, Neural Networks, Reinforcement Learning, MLOps, Kubernetes, Docker,
+Ray, Spark, Kafka, Feature Stores, A/B Testing, Experiment Tracking, Model Serving
+
+CERTIFICATIONS
+- AWS Machine Learning Specialty
+- Deep Learning Specialization (Coursera)

@@ -1,0 +1,39 @@
+David Okonkwo
+david.okonkwo@email.com
+London, UK | Open to Remote
+
+ABOUT
+Senior Product Engineer with 8 years of experience building user-facing products from concept to scale. Expert in full product lifecycle development with strong focus on user experience, growth, and technical excellence. Combines deep technical skills with product thinking.
+
+EXPERIENCE
+Staff Product Engineer | Figma | 2021 - Present
+- Built FigJam collaborative whiteboarding product from 0 to 10M users
+- Developed real-time collaboration features with CRDT-based sync
+- Led technical direction for design system and component library
+- Drove A/B testing strategy improving activation by 35%
+Technologies: TypeScript, React, WebGL, WebSocket, CRDT, PostgreSQL
+
+Senior Product Engineer | Intercom | 2018 - 2021
+- Built messenger product features serving 25K+ businesses
+- Developed chatbot builder with visual flow editor
+- Created analytics dashboard providing customer insights
+Technologies: TypeScript, React, Ruby on Rails, PostgreSQL, Redis
+
+Product Engineer | Stripe | 2016 - 2018
+- Built Dashboard features for merchant analytics
+- Developed payment reporting with real-time data visualization
+- Created onboarding flows improving merchant activation by 25%
+Technologies: JavaScript, React, Ruby, PostgreSQL, API Design
+
+EDUCATION
+M.S. Computer Science | Imperial College London | 2016
+B.S. Computer Science | University of Lagos | 2014
+
+SKILLS
+TypeScript, JavaScript, React, Node.js, Ruby on Rails, Python, PostgreSQL, Redis,
+GraphQL, REST APIs, WebSocket, Real-time Systems, CRDT, System Design,
+Product Development, A/B Testing, Growth Engineering, User Research, Data Analysis,
+Technical Leadership, Cross-functional Collaboration, Agile, Scrum
+
+CERTIFICATIONS
+- Product-Led Growth Certification (Reforge)

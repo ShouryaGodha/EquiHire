@@ -1,0 +1,39 @@
+Daniel Park
+daniel.park@email.com
+Los Angeles, CA | Open to Remote
+
+PROFESSIONAL SUMMARY
+Computer Vision Engineer with 6 years of experience building visual AI systems for autonomous vehicles, robotics, and consumer applications. Expert in deep learning for image and video understanding, 3D perception, and real-time inference optimization.
+
+EXPERIENCE
+Senior Computer Vision Engineer | Tesla | 2021 - Present
+- Lead developer for Autopilot perception stack processing 8 camera feeds
+- Built 3D object detection system with 99.9% accuracy for safety-critical decisions
+- Developed occupancy network predicting drivable space in real-time
+- Optimized neural networks for on-device inference achieving 100 FPS
+Technologies: Python, PyTorch, C++, CUDA, TensorRT, OpenCV, ROS
+
+Computer Vision Engineer | Apple | 2019 - 2021
+- Developed Face ID improvements increasing accuracy while reducing false positives
+- Built AR Kit object recognition for real-time scene understanding
+- Created neural image processing pipeline for computational photography
+Technologies: Python, PyTorch, Core ML, Metal, Swift, C++
+
+ML Engineer | Snap Inc | 2018 - 2019
+- Built real-time face tracking for AR lenses serving 300M+ daily users
+- Developed semantic segmentation for background replacement effects
+- Created body pose estimation for full-body AR experiences
+Technologies: Python, TensorFlow, OpenCV, Android NDK, iOS
+
+EDUCATION
+M.S. Computer Vision | Carnegie Mellon University | 2018
+B.S. Electrical Engineering | UCLA | 2016
+
+SKILLS
+Python, C++, PyTorch, TensorFlow, OpenCV, CUDA, TensorRT, CoreML, Computer Vision,
+Image Classification, Object Detection, Semantic Segmentation, Instance Segmentation,
+3D Vision, Depth Estimation, Point Clouds, SLAM, Visual Odometry, Video Understanding,
+Neural Network Optimization, Edge AI, Embedded Systems, ROS, Autonomous Vehicles
+
+CERTIFICATIONS
+- NVIDIA Deep Learning Institute - Computer Vision

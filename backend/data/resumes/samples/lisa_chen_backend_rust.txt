@@ -1,0 +1,38 @@
+Lisa Chen
+lisa.chen@email.com
+Portland, OR | Remote
+
+SUMMARY
+Systems programmer with 5 years of experience specializing in Rust and low-level systems development. Expert in memory-safe systems programming, compiler design, and performance-critical applications. Active contributor to Rust ecosystem.
+
+EXPERIENCE
+Senior Systems Engineer | Mozilla | 2022 - Present
+- Core contributor to Firefox browser engine, implementing memory-safe components
+- Developed WebAssembly runtime optimization improving execution speed by 45%
+- Built cross-platform cryptographic library used in Firefox and Thunderbird
+- Authored RFC proposals for Rust standard library improvements
+Technologies: Rust, C++, WebAssembly, LLVM, Python, Linux
+
+Systems Developer | Fastly | 2020 - 2022
+- Built edge compute runtime in Rust handling 10M+ requests per second
+- Implemented WebAssembly sandbox for customer code execution
+- Created memory-efficient data structures reducing memory usage by 60%
+Technologies: Rust, C, WebAssembly, Linux, Networking, TCP/IP
+
+Software Engineer | Figma | 2019 - 2020
+- Developed real-time collaboration engine for multiplayer editing
+- Built CRDT implementation for conflict-free document synchronization
+- Optimized WebSocket server reducing connection latency by 40%
+Technologies: Rust, TypeScript, WebSocket, Redis, PostgreSQL
+
+EDUCATION
+M.S. Computer Science (Systems) | Stanford University | 2019
+B.S. Computer Science | MIT | 2017
+
+SKILLS
+Rust, C, C++, WebAssembly, LLVM, Python, Linux Kernel, Memory Management,
+Concurrency, Lock-free Programming, Network Programming, TCP/IP, HTTP,
+Performance Optimization, Compiler Design, Cryptography, Systems Security
+
+CERTIFICATIONS
+- Linux Foundation Certified Engineer

@@ -1,0 +1,39 @@
+Brandon Taylor
+brandon.taylor@email.com
+Denver, CO | Open to Remote
+
+PROFESSIONAL SUMMARY
+Senior React Developer with 6 years of experience building modern web applications. Expert in React ecosystem including Next.js, Redux, and TypeScript. Strong background in performance optimization and state management.
+
+EXPERIENCE
+Staff Frontend Engineer | Vercel | 2022 - Present
+- Core contributor to Next.js documentation and examples
+- Built showcase projects demonstrating best practices for 500K+ developers
+- Developed React Server Components patterns adopted by major frameworks
+- Created performance monitoring tools integrated into Vercel Analytics
+Technologies: React, Next.js, TypeScript, Tailwind CSS, Vercel, Edge Functions
+
+Senior Frontend Developer | Notion | 2019 - 2022
+- Built collaborative editing features for 30M+ users
+- Implemented CRDT-based real-time synchronization
+- Developed block-based editor with 100+ content types
+- Reduced First Contentful Paint by 60% through optimization
+Technologies: React, TypeScript, Redux, WebSocket, IndexedDB, PWA
+
+Frontend Developer | Asana | 2018 - 2019
+- Developed task management UI with drag-and-drop functionality
+- Built calendar view component with complex event handling
+- Created responsive design system for mobile web
+Technologies: React, JavaScript, Redux, Sass, Webpack
+
+EDUCATION
+B.S. Computer Science | Colorado State University | 2018
+
+SKILLS
+React, Next.js, TypeScript, JavaScript, Redux, Redux Toolkit, Zustand, Jotai,
+HTML5, CSS3, Tailwind CSS, Styled Components, Framer Motion, Jest, Testing Library,
+Cypress, Playwright, Webpack, Vite, GraphQL, REST APIs, PWA, Service Workers,
+Web Performance, Core Web Vitals, SSR, SSG, ISR, React Server Components
+
+CERTIFICATIONS
+- Meta Front-End Developer Professional Certificate

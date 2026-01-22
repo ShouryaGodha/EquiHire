@@ -1,0 +1,28 @@
+Alex Chen
+alex.chen@email.com
+Seattle, WA
+
+ABOUT
+Machine Learning Engineer with 4 years of experience in NLP and computer vision.
+Published researcher with focus on transformer architectures and efficient inference.
+
+EXPERIENCE
+
+ML Engineer | AI Startup | 2022 - Present
+- Developed production NLP models for sentiment analysis and named entity recognition
+- Implemented RAG systems using LangChain and vector databases
+- Reduced model inference latency by 60% through optimization and quantization
+- Technologies: Python, PyTorch, Transformers, Qdrant, FastAPI, AWS SageMaker
+
+Data Scientist | BigData Corp | 2020 - 2022
+- Built recommendation systems serving 5M+ users
+- Developed computer vision models for image classification
+- Created data pipelines using Spark and Airflow
+
+EDUCATION
+Ph.D. Computer Science (ML focus) | University of Washington | 2020
+B.S. Mathematics | UC Berkeley | 2016
+
+SKILLS
+Python, PyTorch, TensorFlow, Scikit-learn, NLP, Computer Vision, LLMs,
+Transformers, BERT, GPT, RAG, Vector Databases, AWS, Docker, MLOps

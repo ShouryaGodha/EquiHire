@@ -1,0 +1,39 @@
+Jason Lee
+jason.lee@email.com
+San Jose, CA | Hybrid
+
+PROFESSIONAL SUMMARY
+Senior Android Developer with 7 years of experience building scalable Android applications. Expert in Kotlin, Jetpack Compose, and modern Android architecture. Strong background in performance optimization and testing.
+
+EXPERIENCE
+Staff Android Engineer | Google | 2021 - Present
+- Lead developer for Google Maps Android app with 1B+ installs
+- Built Jetpack Compose migration strategy adopted by 50+ Google apps
+- Designed offline maps feature reducing data usage by 60%
+- Created performance testing framework catching regressions before release
+Technologies: Kotlin, Jetpack Compose, Hilt, Room, Coroutines, Flow, Navigation
+
+Senior Android Developer | Airbnb | 2018 - 2021
+- Developed booking flow increasing conversion by 20%
+- Built modular architecture enabling feature team autonomy
+- Implemented A/B testing framework for 100+ experiments per quarter
+Technologies: Kotlin, Java, RxJava, Dagger, Room, MVVM, Clean Architecture
+
+Android Developer | Pinterest | 2017 - 2018
+- Created infinite scroll for image-heavy feeds with smooth 60fps scrolling
+- Implemented image caching reducing data usage by 40%
+- Built deep linking system improving user engagement by 25%
+Technologies: Java, Kotlin, Retrofit, OkHttp, Glide, RecyclerView
+
+EDUCATION
+M.S. Computer Science | Stanford University | 2017
+B.S. Computer Science | UC Irvine | 2015
+
+SKILLS
+Kotlin, Java, Jetpack Compose, Android SDK, Coroutines, Flow, Room, Hilt, Dagger,
+Retrofit, OkHttp, MVVM, MVI, Clean Architecture, Unit Testing, Espresso, JUnit,
+CI/CD, Gradle, Firebase, Google Play Services, Performance Optimization, ProGuard,
+Material Design, Accessibility, Android Studio, Git
+
+CERTIFICATIONS
+- Google Associate Android Developer

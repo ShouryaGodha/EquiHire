@@ -1,0 +1,38 @@
+Marcus Johnson
+marcus.johnson@email.com
+San Francisco, CA | Open to Remote
+
+ABOUT
+Senior Go Engineer with 6 years of experience building high-performance backend systems. Specialist in concurrent programming, API design, and cloud-native development. Contributed to multiple open-source projects in the Go ecosystem.
+
+EXPERIENCE
+Senior Software Engineer | Uber | 2021 - Present
+- Built ride-matching service handling 15M+ daily requests with p99 latency under 50ms
+- Developed geospatial indexing system for real-time driver location tracking
+- Created service mesh infrastructure reducing inter-service latency by 35%
+- Mentored junior engineers on Go best practices and concurrent programming
+Technologies: Go, PostgreSQL, Redis, Kafka, gRPC, Kubernetes, Prometheus
+
+Software Engineer | Cloudflare | 2019 - 2021
+- Developed edge computing runtime processing 25M+ requests per second globally
+- Built DNS resolver with DNSSEC validation and caching optimization
+- Implemented rate limiting system protecting against DDoS attacks
+Technologies: Go, Rust, ClickHouse, Kafka, Workers, Edge Computing
+
+Backend Developer | DigitalOcean | 2018 - 2019
+- Created Kubernetes cluster provisioning API for managed Kubernetes service
+- Built monitoring and alerting system for customer droplet health
+- Developed API gateway handling authentication and request routing
+Technologies: Go, PostgreSQL, Redis, Docker, Kubernetes
+
+EDUCATION
+B.S. Computer Science | UC Berkeley | 2018
+
+SKILLS
+Go, Rust, PostgreSQL, Redis, Kafka, gRPC, Protocol Buffers, Docker, Kubernetes,
+Prometheus, Grafana, AWS, GCP, Terraform, Microservices, Distributed Systems,
+Concurrency, Performance Optimization, API Design, Service Mesh, Istio
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator (CKA)
+- Google Cloud Professional Cloud Developer

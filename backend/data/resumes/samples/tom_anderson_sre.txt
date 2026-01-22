@@ -1,0 +1,40 @@
+Tom Anderson
+tom.anderson@email.com
+Seattle, WA | Remote
+
+ABOUT
+Senior Site Reliability Engineer with 8 years of experience ensuring high availability and reliability of large-scale distributed systems. Expert in incident management, capacity planning, and building resilient infrastructure serving millions of users.
+
+EXPERIENCE
+Staff SRE | Google | 2020 - Present
+- Lead SRE for Google Cloud Run serving 500K+ customers with 99.99% uptime
+- Designed disaster recovery system reducing RTO from 4 hours to 15 minutes
+- Built automated capacity planning reducing over-provisioning by 30%
+- Created incident response framework adopted across 20+ teams
+Technologies: Go, Python, Kubernetes, Prometheus, Grafana, BigQuery, Borg, SLOs
+
+Senior SRE | Twitter | 2017 - 2020
+- Managed infrastructure handling 500M tweets daily with 99.95% availability
+- Built chaos engineering platform identifying 100+ latent failures
+- Developed automated remediation reducing MTTR by 60%
+Technologies: Scala, Python, Mesos, Aurora, Prometheus, PagerDuty
+
+DevOps Engineer | Etsy | 2015 - 2017
+- Built deployment pipeline enabling 50+ deployments per day
+- Created monitoring stack tracking 1M+ metrics per minute
+- Implemented blue-green deployments reducing rollback time by 90%
+Technologies: Python, Chef, Nagios, Graphite, Jenkins, MySQL
+
+EDUCATION
+B.S. Computer Science | University of Washington | 2015
+
+SKILLS
+Python, Go, Bash, Kubernetes, Docker, Prometheus, Grafana, Terraform, Ansible,
+AWS, GCP, Linux, Networking, TCP/IP, Load Balancing, SLOs, SLIs, Error Budgets,
+Incident Management, Capacity Planning, Chaos Engineering, Observability,
+Distributed Systems, Reliability Engineering, On-call Management, Runbooks
+
+CERTIFICATIONS
+- Google Cloud Professional Cloud DevOps Engineer
+- Certified Kubernetes Administrator (CKA)
+- AWS Solutions Architect Professional

@@ -1,0 +1,28 @@
+Mike Wilson
+mikew@email.com
+Chicago, IL
+
+SUMMARY
+Creative Frontend Developer with 3 years of experience building beautiful,
+accessible web applications. Passionate about user experience and modern CSS.
+
+EXPERIENCE
+
+Frontend Developer | DesignTech | 2022 - Present
+- Built component libraries using React and Storybook
+- Implemented responsive designs with Tailwind CSS
+- Improved Core Web Vitals scores by 35%
+- Technologies: React, TypeScript, Next.js, Tailwind CSS, Framer Motion
+
+Junior Frontend Developer | WebWorks | 2021 - 2022
+- Developed landing pages and marketing websites
+- Created animations and interactive elements
+- Learned and applied accessibility best practices
+
+EDUCATION
+B.A. Digital Design | Columbia College Chicago | 2021
+Bootcamp: Full Stack Web Development | 2020
+
+SKILLS
+JavaScript, TypeScript, React, Next.js, Vue.js, HTML, CSS, Sass, Tailwind CSS,
+Figma, Responsive Design, Accessibility, Git, Agile

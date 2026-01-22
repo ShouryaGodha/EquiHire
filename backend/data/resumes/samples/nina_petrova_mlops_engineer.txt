@@ -1,0 +1,39 @@
+Nina Petrova
+nina.petrova@email.com
+San Francisco, CA | Remote
+
+ABOUT
+MLOps Engineer with 4 years of experience building and maintaining ML infrastructure at scale. Expert in model deployment, monitoring, and automation. Strong background in bridging the gap between data science and production engineering.
+
+EXPERIENCE
+Senior MLOps Engineer | Databricks | 2022 - Present
+- Built ML pipeline platform serving 500+ data science teams
+- Designed feature store with sub-10ms latency for real-time serving
+- Created model registry supporting 10K+ model versions with automated lineage
+- Reduced model deployment time from weeks to hours through automation
+Technologies: Python, MLflow, Delta Lake, Spark, Kubernetes, Terraform, AWS
+
+MLOps Engineer | Instacart | 2020 - 2022
+- Deployed 50+ ML models for demand forecasting and personalization
+- Built model monitoring system detecting drift and performance degradation
+- Created A/B testing infrastructure for ML experiments
+Technologies: Python, Kubeflow, Airflow, Feast, Prometheus, Grafana, GCP
+
+Data Engineer | Capital One | 2019 - 2020
+- Built ETL pipelines processing 100TB+ daily for ML feature generation
+- Developed data quality monitoring framework with automated alerts
+- Created self-service data platform for analytics teams
+Technologies: Python, Spark, Airflow, Snowflake, dbt, AWS
+
+EDUCATION
+M.S. Data Science | Columbia University | 2019
+B.S. Computer Engineering | University of Toronto | 2017
+
+SKILLS
+Python, MLflow, Kubeflow, Airflow, Spark, Kafka, Kubernetes, Docker, Terraform,
+AWS SageMaker, GCP Vertex AI, Feature Stores, Feast, Model Monitoring, Data Pipelines,
+CI/CD for ML, Git, GitHub Actions, Prometheus, Grafana, dbt, Delta Lake, MLOps
+
+CERTIFICATIONS
+- Google Professional Machine Learning Engineer
+- Certified Kubernetes Administrator (CKA)

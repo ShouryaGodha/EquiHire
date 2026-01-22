@@ -1,0 +1,39 @@
+Chen Wei
+chen.wei@email.com
+Seattle, WA | Open to Remote
+
+SUMMARY
+Senior Data Engineer with 7 years of experience building data platforms and pipelines at scale. Expert in distributed computing, data modeling, and real-time streaming. Strong track record of enabling data-driven decision making across organizations.
+
+EXPERIENCE
+Principal Data Engineer | Meta | 2021 - Present
+- Architected data lake platform processing 5PB+ daily across Instagram and Facebook
+- Built real-time analytics pipeline with sub-second latency for 3B+ users
+- Led migration from Hive to Spark, reducing compute costs by 45%
+- Designed data governance framework ensuring GDPR and privacy compliance
+Technologies: Python, Spark, Presto, Hive, Kafka, Flink, Airflow, Hadoop
+
+Senior Data Engineer | Snowflake | 2018 - 2021
+- Built internal data platform supporting 1000+ analysts and data scientists
+- Developed streaming ingestion pipeline processing 10M events per second
+- Created data catalog with automated metadata extraction and lineage tracking
+Technologies: Python, Snowflake, Kafka, Spark, Airflow, dbt, Terraform
+
+Data Engineer | Pinterest | 2016 - 2018
+- Built recommendation data pipeline feeding ML models for 400M+ users
+- Developed data quality framework catching 95% of anomalies before impact
+- Created self-service analytics platform reducing data request backlog by 70%
+Technologies: Python, Spark, Hive, Redshift, Airflow, Luigi
+
+EDUCATION
+M.S. Computer Science | University of Washington | 2016
+B.S. Computer Science | Tsinghua University | 2014
+
+SKILLS
+Python, Scala, SQL, Spark, Flink, Kafka, Airflow, Hive, Presto, Trino,
+Snowflake, BigQuery, Redshift, Delta Lake, Iceberg, dbt, Data Modeling,
+Dimensional Modeling, Data Warehousing, ETL/ELT, Data Governance, Terraform, AWS, GCP
+
+CERTIFICATIONS
+- Snowflake SnowPro Core
+- Databricks Data Engineer Professional

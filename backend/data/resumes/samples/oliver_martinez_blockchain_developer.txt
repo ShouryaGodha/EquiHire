@@ -1,0 +1,40 @@
+Oliver Martinez
+oliver.martinez@email.com
+Austin, TX | Remote
+
+ABOUT
+Blockchain Developer with 4 years of experience building decentralized applications and smart contracts. Expert in Ethereum, Solidity, and DeFi protocols. Strong background in security auditing and gas optimization.
+
+EXPERIENCE
+Senior Blockchain Developer | Uniswap Labs | 2022 - Present
+- Lead developer for Uniswap V4 hooks processing $1B+ daily trading volume
+- Built concentrated liquidity features improving capital efficiency by 4000x
+- Designed gas optimization patterns reducing transaction costs by 30%
+- Created security testing framework preventing $50M+ in potential exploits
+Technologies: Solidity, Rust, TypeScript, Foundry, Hardhat, The Graph
+
+Blockchain Developer | Chainlink | 2020 - 2022
+- Developed oracle smart contracts securing $75B+ in DeFi TVL
+- Built cross-chain messaging protocol for multi-chain applications
+- Created automated testing suite with 95% code coverage
+Technologies: Solidity, Go, TypeScript, Chainlink, Ethereum, Polygon
+
+Smart Contract Developer | ConsenSys | 2019 - 2020
+- Built DeFi protocols for lending and borrowing platforms
+- Conducted security audits identifying critical vulnerabilities
+- Developed NFT marketplace smart contracts
+Technologies: Solidity, JavaScript, Web3.js, Truffle, OpenZeppelin
+
+EDUCATION
+M.S. Computer Science | MIT | 2019
+B.S. Mathematics | UT Austin | 2017
+
+SKILLS
+Solidity, Rust, Go, TypeScript, JavaScript, Ethereum, EVM, Smart Contracts,
+DeFi, NFTs, Web3.js, Ethers.js, Hardhat, Foundry, Truffle, The Graph, IPFS,
+Security Auditing, Gas Optimization, Upgradeable Contracts, OpenZeppelin,
+Layer 2, Polygon, Arbitrum, Optimism, Cross-chain, Chainlink, Oracles
+
+CERTIFICATIONS
+- Certified Blockchain Developer - Ethereum
+- Smart Contract Security Auditor

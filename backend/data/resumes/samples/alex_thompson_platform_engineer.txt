@@ -1,0 +1,40 @@
+Alex Thompson
+alex.thompson@email.com
+Austin, TX | Remote
+
+ABOUT
+Platform Engineer with 5 years of experience building internal developer platforms and self-service infrastructure. Expert in Kubernetes, GitOps, and developer experience. Passionate about reducing cognitive load for development teams.
+
+EXPERIENCE
+Senior Platform Engineer | Spotify | 2022 - Present
+- Built internal developer platform serving 3000+ engineers
+- Created self-service Kubernetes deployment reducing onboarding from days to minutes
+- Designed service catalog improving discoverability of internal tools
+- Implemented golden paths reducing time-to-production by 70%
+Technologies: Kubernetes, Backstage, ArgoCD, Terraform, Go, Crossplane
+
+Platform Engineer | Shopify | 2020 - 2022
+- Developed multi-tenant Kubernetes platform for 1500+ microservices
+- Built automated environment provisioning with Terraform and Crossplane
+- Created cost allocation system providing visibility into team spend
+Technologies: Kubernetes, Terraform, Ruby, AWS, Datadog, PagerDuty
+
+DevOps Engineer | Atlassian | 2019 - 2020
+- Built CI/CD pipelines for Bitbucket Cloud serving millions of users
+- Implemented GitOps workflow using ArgoCD and Helm
+- Created monitoring and alerting infrastructure for development teams
+Technologies: Kubernetes, ArgoCD, Helm, Prometheus, Grafana, Bamboo
+
+EDUCATION
+B.S. Computer Science | UT Austin | 2019
+
+SKILLS
+Kubernetes, Docker, Terraform, Crossplane, ArgoCD, Helm, Backstage, Go, Python,
+AWS, GCP, GitOps, CI/CD, GitHub Actions, Internal Developer Platforms,
+Service Mesh, Istio, Linkerd, Prometheus, Grafana, Datadog, Infrastructure as Code,
+Developer Experience, Platform Engineering, Self-service Infrastructure
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator (CKA)
+- Certified Kubernetes Application Developer (CKAD)
+- HashiCorp Terraform Associate

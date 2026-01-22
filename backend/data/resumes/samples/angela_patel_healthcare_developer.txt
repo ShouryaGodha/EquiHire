@@ -1,0 +1,41 @@
+Angela Patel
+angela.patel@email.com
+Toronto, Canada | Remote
+
+SUMMARY
+Healthcare Technology Developer with 5 years of experience building software for medical and healthcare applications. Expert in HIPAA compliance, HL7 FHIR integration, and clinical workflow automation. Strong background in regulated software development.
+
+EXPERIENCE
+Senior Healthcare Developer | Epic Systems | 2021 - Present
+- Built patient portal features used by 50M+ patients
+- Developed FHIR API integrations connecting 500+ healthcare organizations
+- Created clinical decision support tools improving diagnosis accuracy
+- Led HIPAA compliance initiatives for cloud migration
+Technologies: C#, .NET, FHIR, HL7, Azure, SQL Server, TypeScript, React
+
+Healthcare Software Engineer | Cerner | 2019 - 2021
+- Developed EHR modules for medication management
+- Built interoperability solutions using HL7 v2 and FHIR standards
+- Created automated testing for clinical workflows
+Technologies: Java, Spring Boot, Oracle, HL7, FHIR, REST APIs
+
+Junior Developer | Health Startup | 2018 - 2019
+- Built telemedicine platform connecting patients with doctors
+- Developed appointment scheduling with calendar integration
+- Created secure messaging with end-to-end encryption
+Technologies: Node.js, React, PostgreSQL, WebRTC, AWS
+
+EDUCATION
+M.S. Health Informatics | University of Toronto | 2018
+B.S. Computer Science | University of Waterloo | 2016
+
+SKILLS
+C#, .NET, Java, TypeScript, React, Node.js, SQL Server, PostgreSQL,
+HL7 FHIR, HL7 v2, CDA, DICOM, Healthcare Interoperability, EHR Integration,
+HIPAA Compliance, HITRUST, FDA Regulations, Clinical Workflows, Azure, AWS,
+Medical Terminology, ICD-10, SNOMED CT, REST APIs, Security, Encryption
+
+CERTIFICATIONS
+- HL7 FHIR Certified Developer
+- HIPAA Security Professional
+- Microsoft Azure Healthcare APIs

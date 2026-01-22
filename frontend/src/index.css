@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  Design System: AI Recruitment Assistant
+  Philosophy: Minimal, calm, professional, trustworthy
+  Inspiration: Notion × Linear × modern hiring tools
+*/
+
+@layer base {
+    :root {
+        /* Core backgrounds - pure white, clean */
+        --background: 0 0% 100%;
+        --foreground: 220 20% 10%;
+
+        /* Cards - slightly warm white */
+        --card: 0 0% 100%;
+        --card-foreground: 220 20% 10%;
+
+        /* Popovers */
+        --popover: 0 0% 100%;
+        --popover-foreground: 220 20% 10%;
+
+        /* Primary - sophisticated slate blue (trustworthy, calm) */
+        --primary: 220 70% 45%;
+        --primary-foreground: 0 0% 100%;
+
+        /* Secondary - light neutral */
+        --secondary: 220 14% 96%;
+        --secondary-foreground: 220 20% 25%;
+
+        /* Muted - for helper text and subtle elements */
+        --muted: 220 14% 96%;
+        --muted-foreground: 220 10% 50%;
+
+        /* Accent - subtle highlight */
+        --accent: 220 30% 94%;
+        --accent-foreground: 220 20% 20%;
+
+        /* Success - for match scores */
+        --success: 150 60% 40%;
+        --success-foreground: 0 0% 100%;
+
+        /* Destructive */
+        --destructive: 0 70% 55%;
+        --destructive-foreground: 0 0% 100%;
+
+        /* Borders - very subtle */
+        --border: 220 14% 90%;
+        --input: 220 14% 90%;
+        --ring: 220 70% 45%;
+
+        /* Radius - subtle rounding */
+        --radius: 0.5rem;
+
+        /* Match score colors */
+        --score-high: 150 60% 40%;
+        --score-medium: 45 90% 50%;
+        --score-low: 220 10% 60%;
+
+        /* Sidebar (if needed) */
+        --sidebar-background: 220 14% 98%;
+        --sidebar-foreground: 220 10% 30%;
+        --sidebar-primary: 220 70% 45%;
+        --sidebar-primary-foreground: 0 0% 100%;
+        --sidebar-accent: 220 14% 95%;
+        --sidebar-accent-foreground: 220 20% 20%;
+        --sidebar-border: 220 14% 90%;
+        --sidebar-ring: 220 70% 45%;
+    }
+
+    .dark {
+        --background: 220 20% 8%;
+        --foreground: 220 14% 96%;
+        --card: 220 20% 10%;
+        --card-foreground: 220 14% 96%;
+        --popover: 220 20% 10%;
+        --popover-foreground: 220 14% 96%;
+        --primary: 220 70% 55%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 220 20% 15%;
+        --secondary-foreground: 220 14% 90%;
+        --muted: 220 20% 15%;
+        --muted-foreground: 220 10% 55%;
+        --accent: 220 25% 18%;
+        --accent-foreground: 220 14% 96%;
+        --destructive: 0 60% 45%;
+        --destructive-foreground: 0 0% 100%;
+        --border: 220 20% 18%;
+        --input: 220 20% 18%;
+        --ring: 220 70% 55%;
+        --sidebar-background: 220 20% 6%;
+        --sidebar-foreground: 220 14% 90%;
+        --sidebar-primary: 220 70% 55%;
+        --sidebar-primary-foreground: 0 0% 100%;
+        --sidebar-accent: 220 20% 12%;
+        --sidebar-accent-foreground: 220 14% 90%;
+        --sidebar-border: 220 20% 15%;
+        --sidebar-ring: 220 70% 55%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    html {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+@layer components {
+
+    /* Candidate card hover state */
+    .candidate-card {
+        @apply transition-all duration-150 ease-out;
+    }
+
+    .candidate-card:hover {
+        @apply bg-accent/50;
+    }
+
+    .candidate-card.selected {
+        @apply bg-accent border-primary/20;
+    }
+
+    /* Score badge variants */
+    .score-badge {
+        @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium;
+    }
+
+    .score-badge-high {
+        @apply bg-emerald-50 text-emerald-700;
+    }
+
+    .score-badge-medium {
+        @apply bg-amber-50 text-amber-700;
+    }
+
+    .score-badge-low {
+        @apply bg-slate-100 text-slate-600;
+    }
+
+    /* Skill tags */
+    .skill-tag {
+        @apply inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-secondary text-secondary-foreground;
+    }
+
+    /* Subtle transitions */
+    .transition-subtle {
+        @apply transition-all duration-150 ease-out;
+    }
+
+    /* Primary button */
+    .btn-primary {
+        @apply flex items-center justify-center gap-2 py-3 px-6 rounded-xl bg-primary text-primary-foreground font-medium hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200;
+        box-shadow: 0 4px 14px -3px hsl(220 70% 45% / 0.4);
+    }
+
+    .btn-primary:hover:not(:disabled) {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 20px -3px hsl(220 70% 45% / 0.5);
+    }
+
+    .btn-primary:active:not(:disabled) {
+        transform: translateY(0);
+    }
+
+    /* Secondary button */
+    .btn-secondary {
+        @apply flex items-center justify-center gap-2 py-2 px-4 rounded-lg bg-secondary text-secondary-foreground font-medium hover:bg-secondary/80 disabled:opacity-50 disabled:cursor-not-allowed transition-all;
+    }
+
+    /* Input field */
+    .input-field {
+        @apply w-full py-2.5 px-4 text-sm rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all;
+    }
+
+    /* Textarea field */
+    .textarea-field {
+        @apply w-full p-4 text-sm leading-relaxed rounded-xl border border-border bg-white/50 dark:bg-white/5 backdrop-blur-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary resize-none transition-all duration-300;
+        box-shadow: 0 2px 6px -2px hsl(220 20% 20% / 0.05);
+    }
+
+    .textarea-field:focus {
+        box-shadow: 0 0 0 3px hsl(220 70% 45% / 0.1),
+            0 3px 10px -2px hsl(220 20% 20% / 0.06);
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/20 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/40;
+}
+
+/* Animated gradient background */
+.gradient-bg {
+    background: linear-gradient(135deg,
+            hsl(220 30% 98%) 0%,
+            hsl(220 40% 96%) 25%,
+            hsl(240 30% 97%) 50%,
+            hsl(220 35% 97%) 75%,
+            hsl(200 30% 98%) 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+}
+
+.dark .gradient-bg {
+    background: linear-gradient(135deg,
+            hsl(220 20% 8%) 0%,
+            hsl(220 25% 10%) 25%,
+            hsl(240 20% 9%) 50%,
+            hsl(220 22% 9%) 75%,
+            hsl(200 20% 8%) 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Glassmorphism card */
+.glass-card {
+    @apply bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-xl shadow-black/5;
+}
+
+/* Animated border gradient */
+.border-gradient {
+    position: relative;
+    background: linear-gradient(var(--background), var(--background)) padding-box,
+        linear-gradient(135deg, hsl(220 70% 60%), hsl(280 70% 60%), hsl(220 70% 60%)) border-box;
+    border: 2px solid transparent;
+}
+
+/* Floating animation */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+.float-animation {
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Shimmer effect */
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.shimmer {
+    background: linear-gradient(90deg,
+            transparent 0%,
+            hsl(220 70% 60% / 0.1) 50%,
+            transparent 100%);
+    background-size: 200% 100%;
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+/* Focus glow */
+.focus-glow:focus {
+    box-shadow: 0 0 0 4px hsl(220 70% 45% / 0.15),
+        0 0 20px hsl(220 70% 45% / 0.1);
+}
+
+/* Subtle pulse */
+@keyframes subtlePulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+.subtle-pulse {
+    animation: subtlePulse 2s ease-in-out infinite;
+}

@@ -1,0 +1,39 @@
+Nathan Brooks
+nathan.brooks@email.com
+Los Angeles, CA | Open to Remote
+
+PROFESSIONAL SUMMARY
+Game Developer with 6 years of experience creating AAA and indie games. Expert in Unity and Unreal Engine with strong background in graphics programming, game physics, and multiplayer systems. Passionate about creating immersive gaming experiences.
+
+EXPERIENCE
+Senior Game Developer | Riot Games | 2021 - Present
+- Lead developer for League of Legends game client features
+- Built networking system supporting 150M+ monthly players
+- Implemented low-latency input handling with sub-10ms response times
+- Created tools reducing artist iteration time by 60%
+Technologies: C++, Unreal Engine, Networking, Graphics Programming
+
+Game Developer | Blizzard Entertainment | 2018 - 2021
+- Developed gameplay systems for World of Warcraft expansions
+- Built character animation blending system for smooth transitions
+- Implemented quest system handling 10K+ concurrent scripted events
+Technologies: C++, Custom Engine, Lua, DirectX, Physics
+
+Junior Game Developer | Independent Studio | 2017 - 2018
+- Built indie puzzle game with 500K+ downloads on Steam
+- Implemented procedural level generation system
+- Created save system with cloud synchronization
+Technologies: Unity, C#, HLSL, Shader Graph
+
+EDUCATION
+B.S. Computer Science (Game Development) | USC | 2017
+
+SKILLS
+C++, C#, Unity, Unreal Engine, Game Design, Graphics Programming, HLSL, GLSL,
+DirectX, Vulkan, OpenGL, Physics Simulation, AI Programming, Pathfinding, A*,
+Networking, Multiplayer Systems, Animation Systems, Procedural Generation,
+Performance Optimization, Memory Management, Git, Perforce, Agile
+
+CERTIFICATIONS
+- Unity Certified Developer
+- Unreal Engine Developer Certification

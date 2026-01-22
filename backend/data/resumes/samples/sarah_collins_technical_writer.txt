@@ -1,0 +1,40 @@
+Sarah Collins
+sarah.collins@email.com
+San Francisco, CA | Remote
+
+SUMMARY
+Technical Writer with 6 years of experience creating documentation for developer tools and APIs. Expert in making complex technical concepts accessible through clear, concise writing. Strong background in docs-as-code and developer experience.
+
+EXPERIENCE
+Senior Technical Writer | Stripe | 2021 - Present
+- Lead writer for Stripe API documentation used by 3M+ developers
+- Created interactive tutorials increasing developer onboarding success by 40%
+- Built documentation infrastructure with automated API reference generation
+- Developed style guide adopted across all Stripe technical content
+Technologies: Markdown, MDX, Git, OpenAPI, Docusaurus, Vale
+
+Technical Writer | GitHub | 2019 - 2021
+- Wrote documentation for GitHub Actions serving 90M+ developers
+- Created code samples in 10+ programming languages
+- Built documentation feedback system improving content quality
+Technologies: Markdown, Jekyll, Git, GitHub Pages, JavaScript
+
+Junior Technical Writer | Twilio | 2017 - 2019
+- Developed quickstart guides reducing time-to-first-API-call by 50%
+- Created video tutorials for API integration patterns
+- Maintained SDK documentation for 7 programming languages
+Technologies: Markdown, ReadMe, Postman, Video Production
+
+EDUCATION
+M.A. Technical Communication | RPI | 2017
+B.S. Computer Science | Purdue University | 2015
+
+SKILLS
+Technical Writing, API Documentation, Developer Documentation, Markdown, MDX,
+Git, Docs-as-Code, OpenAPI, Swagger, Postman, Docusaurus, MkDocs, Sphinx,
+Jekyll, Hugo, Content Strategy, Information Architecture, Code Samples,
+Video Production, Tutorial Design, Style Guides, Vale, Accessibility, SEO
+
+CERTIFICATIONS
+- Google Technical Writing Certificate
+- API Documentation Best Practices (Coursera)
